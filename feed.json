@@ -7,6 +7,46 @@
 	"items": [
 		
 			{
+				"id": "http://alexanderbellgram.micro.blog/2024/03/27/topics-discussed-at.html",
+				
+				"content_html": "<p>Topics discussed at dinner tonight with my wife and kids. \n• Euclidean and non-Euclidean geometry. \n• The opening lines of Romeo and Juliet. \n• The medical condition known as tenesmus. \n• Gödel’s Incompleteness theorems. \n• The date calculation used to determine the date of Easter Sunday. \n• Leap year logic.</p>\n<p>My family is totally normal.</p>\n",
+				"content_text": "Topics discussed at dinner tonight with my wife and kids. \r\n• Euclidean and non-Euclidean geometry. \r\n• The opening lines of Romeo and Juliet. \r\n• The medical condition known as tenesmus. \r\n• Gödel’s Incompleteness theorems. \r\n• The date calculation used to determine the date of Easter Sunday. \r\n• Leap year logic. \r\n\r\nMy family is totally normal.\n",
+				"date_published": "2024-03-27T21:22:48-04:00",
+				"url": "https://alexanderbellgram.com/2024/03/27/topics-discussed-at.html"
+			},
+			{
+				"id": "http://alexanderbellgram.micro.blog/2024/03/23/this-is-your.html",
+				
+				"content_html": "<p>This is your daily reminder that you only feel gravity when you’re NOT falling.</p>\n",
+				"content_text": "This is your daily reminder that you only feel gravity when you’re NOT falling.\n",
+				"date_published": "2024-03-23T21:59:19-04:00",
+				"url": "https://alexanderbellgram.com/2024/03/23/this-is-your.html"
+			},
+			{
+				"id": "http://alexanderbellgram.micro.blog/2024/03/23/found-a-bug.html",
+				
+				"content_html": "<p>Found a bug. Fixed.\nAnd by that, I mean the wife found a roach in the cabinet, sprayed everything in there with bug spray, slammed it shut and put duct tape over it in the shape of a big X so no one in the house would use the now tainted cups and mugs in said cabinet.</p>\n",
+				"content_text": "Found a bug. Fixed.\r\nAnd by that, I mean the wife found a roach in the cabinet, sprayed everything in there with bug spray, slammed it shut and put duct tape over it in the shape of a big X so no one in the house would use the now tainted cups and mugs in said cabinet.\n",
+				"date_published": "2024-03-23T13:47:36-04:00",
+				"url": "https://alexanderbellgram.com/2024/03/23/found-a-bug.html"
+			},
+			{
+				"id": "http://alexanderbellgram.micro.blog/2024/03/20/optometrists-love-to.html",
+				
+				"content_html": "<p>Optometrists love to place that new pair of glasses on your face as if you’re royalty having the crown placed on your head at your coronation. You just know when you get home you’re going to unceremoniously throw those glasses right on the nightstand just like every other night.</p>\n",
+				"content_text": "Optometrists love to place that new pair of glasses on your face as if you’re royalty having the crown placed on your head at your coronation. You just know when you get home you’re going to unceremoniously throw those glasses right on the nightstand just like every other night.\n",
+				"date_published": "2024-03-20T22:21:20-04:00",
+				"url": "https://alexanderbellgram.com/2024/03/20/optometrists-love-to.html"
+			},
+			{
+				"id": "http://alexanderbellgram.micro.blog/2024/03/20/threads-notifications-currently.html",
+				
+				"content_html": "<p>Meta Threads notifications currently broken.</p>\n",
+				"content_text": "Meta Threads notifications currently broken. \n",
+				"date_published": "2024-03-20T11:50:55-04:00",
+				"url": "https://alexanderbellgram.com/2024/03/20/threads-notifications-currently.html"
+			},
+			{
 				"id": "http://alexanderbellgram.micro.blog/2024/03/19/i-wouldnt-call.html",
 				
 				"content_html": "<p>I wouldn&rsquo;t call it a &ldquo;living document&rdquo;. It&rsquo;s a glorified wiki page. Electronic communications aren&rsquo;t suddenly reproducing or taking in nutrients. Let&rsquo;s all calm down.</p>\n",
@@ -138,7 +178,7 @@
 				"id": "http://alexanderbellgram.micro.blog/2024/02/20/todays-map-the.html",
 				
 				"content_html": "<p>Today&rsquo;s map. The population density of China. RealLifeLore did a video on this as well: <a href=\"https://youtu.be/kVaBlat06Sw\">youtu.be/kVaBlat06&hellip;</a></p>\n<!-- raw HTML omitted -->\n",
-				"content_text": "Today's map. The population density of China. RealLifeLore did a video on this as well: [youtu.be/kVaBlat06...](https://youtu.be/kVaBlat06Sw)\n\n\n<img src=\"https://alexanderbellgram.com/uploads/2024/88f3566c02.jpeg\" width=\"600\" height=\"450\" alt=\"\">\n",
+				"content_text": "Today's map. The population density of China. RealLifeLore did a video on this as well: [youtu.be/kVaBlat06...](https://youtu.be/kVaBlat06Sw)\n\n\n<img src=\"uploads/2024/88f3566c02.jpeg\" width=\"600\" height=\"450\" alt=\"\">\n",
 				"date_published": "2024-02-20T11:38:15-04:00",
 				"url": "https://alexanderbellgram.com/2024/02/20/todays-map-the.html"
 			},

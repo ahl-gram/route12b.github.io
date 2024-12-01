@@ -7,10 +7,42 @@
 	"items": [
 		
 			{
+				"id": "http://alexanderbellgram.micro.blog/2024/12/01/my-friends-when.html",
+				
+				"content_html": "<p>My friends, when pasting a link to an Apple News article, please take a moment and get the link to the original publication&rsquo;s article. Clicking a link and seeing the Apple News interface pop up is&hellip;  not great.</p>\n",
+				"content_text": "My friends, when pasting a link to an Apple News article, please take a moment and get the link to the original publication's article. Clicking a link and seeing the Apple News interface pop up is...  not great.\n",
+				"date_published": "2024-12-01T16:19:20-05:00",
+				"url": "https://alexanderbellgram.com/2024/12/01/my-friends-when.html"
+			},
+			{
+				"id": "http://alexanderbellgram.micro.blog/2024/11/27/test-post-please.html",
+				
+				"content_html": "<p>Test post. Please ignore.</p>\n",
+				"content_text": "Test post. Please ignore.\n",
+				"date_published": "2024-11-27T16:32:14-05:00",
+				"url": "https://alexanderbellgram.com/2024/11/27/test-post-please.html"
+			},
+			{
+				"id": "http://alexanderbellgram.micro.blog/2024/11/27/humangenerated-content-right.html",
+				
+				"content_html": "<p>100% human-generated content right here.</p>\n",
+				"content_text": "100% human-generated content right here.\n",
+				"date_published": "2024-11-27T16:22:22-05:00",
+				"url": "https://alexanderbellgram.com/2024/11/27/humangenerated-content-right.html"
+			},
+			{
+				"id": "http://alexanderbellgram.micro.blog/2024/11/24/rewatched-gladiator-last.html",
+				
+				"content_html": "<p>Rewatched Gladiator last night. I&rsquo;ve seen it a million times before but it&rsquo;s been awhile. Joaquin Phoenix&rsquo;s performance is underrated.</p>\n",
+				"content_text": "Rewatched Gladiator last night. I've seen it a million times before but it's been awhile. Joaquin Phoenix's performance is underrated. \n",
+				"date_published": "2024-11-24T08:07:19-05:00",
+				"url": "https://alexanderbellgram.com/2024/11/24/rewatched-gladiator-last.html"
+			},
+			{
 				"id": "http://alexanderbellgram.micro.blog/2024/11/23/crossposting-is-funfediversing.html",
 				
-				"content_html": "<p>Cross-posting is fun\nFediversing is dope, see?\nTesting it out now.</p>\n",
-				"content_text": "Cross-posting is fun\r\nFediversing is dope, see?\r\nTesting it out now.\n",
+				"content_html": "<p>Cross-posting is fun</p>\n<p>Fediversing is dope, see?</p>\n<p>Testing it out now.</p>\n",
+				"content_text": "Cross-posting is fun\n\nFediversing is dope, see?\n\nTesting it out now.\n",
 				"date_published": "2024-11-23T16:14:56-05:00",
 				"url": "https://alexanderbellgram.com/2024/11/23/crossposting-is-funfediversing.html"
 			},

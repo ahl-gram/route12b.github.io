@@ -1,11 +1,91 @@
 {
 	"version": "https://jsonfeed.org/version/1",
-	"title": "@alexanderbellgram [Alex]",
+	"title": "alexanderbellgram.com",
 	"icon": "https://micro.blog/alexanderbellgram/avatar.jpg",
 	"home_page_url": "https://alexanderbellgram.com/",
 	"feed_url": "https://alexanderbellgram.com/feed.json",
 	"items": [
 		
+			{
+				"id": "http://alexanderbellgram.micro.blog/2024/12/06/anthropic-countering-openai.html",
+				
+				"content_html": "<p>Anthropic countering OpenAI with unlimited access to all of their models for a mere $2000/month.</p>\n",
+				"content_text": "Anthropic countering OpenAI with unlimited access to all of their models for a mere $2000/month. \n",
+				"date_published": "2024-12-06T07:01:45-05:00",
+				"url": "https://alexanderbellgram.com/2024/12/06/anthropic-countering-openai.html"
+			},
+			{
+				"id": "http://alexanderbellgram.micro.blog/2024/12/05/bridgy-has-anyone.html",
+				
+				"content_html": "<p>Bridgy. Has anyone used it? Let me know.</p>\n",
+				"content_text": "Bridgy. Has anyone used it? Let me know. \n",
+				"date_published": "2024-12-05T21:02:20-05:00",
+				"url": "https://alexanderbellgram.com/2024/12/05/bridgy-has-anyone.html"
+			},
+			{
+				"id": "http://alexanderbellgram.micro.blog/2024/12/04/i-think-ive.html",
+				
+				"content_html": "<p>I think I’ve mentioned this before but it bears repeating: just about everyone dances the Electric Slide incorrectly.</p>\n",
+				"content_text": "I think I’ve mentioned this before but it bears repeating: just about everyone dances the Electric Slide incorrectly. \n",
+				"date_published": "2024-12-04T18:05:55-05:00",
+				"url": "https://alexanderbellgram.com/2024/12/04/i-think-ive.html"
+			},
+			{
+				"id": "http://alexanderbellgram.micro.blog/2024/12/04/ever-notice-how.html",
+				
+				"content_html": "<p>Ever notice how Instagram will not allow your phone to go to sleep? Try it. Go the the main feed and then set your phone down. It won&rsquo;t go to sleep. It will just keep playing whatever reel is on your screen on repeat forever until your phone battery is drained.</p>\n",
+				"content_text": "Ever notice how Instagram will not allow your phone to go to sleep? Try it. Go the the main feed and then set your phone down. It won't go to sleep. It will just keep playing whatever reel is on your screen on repeat forever until your phone battery is drained. \n",
+				"date_published": "2024-12-04T15:27:50-05:00",
+				"url": "https://alexanderbellgram.com/2024/12/04/ever-notice-how.html"
+			},
+			{
+				"id": "http://alexanderbellgram.micro.blog/2024/12/04/ever-hit-ctrlr.html",
+				
+				"content_html": "<p>Ever hit ctrl+R or cmd+R on the wrong application and instead of your browser refreshing it&rsquo;s some random app in the background? Focus is a struggle.</p>\n",
+				"content_text": "Ever hit ctrl+R or cmd+R on the wrong application and instead of your browser refreshing it's some random app in the background? Focus is a struggle.\n",
+				"date_published": "2024-12-04T09:46:51-05:00",
+				"url": "https://alexanderbellgram.com/2024/12/04/ever-hit-ctrlr.html"
+			},
+			{
+				"id": "http://alexanderbellgram.micro.blog/2024/12/04/however-having-stopped.html",
+				
+				"content_html": "<p>(2/2) However, having stopped using Spotify, I can&rsquo;t partake in Spotify wrapped this year. Now, is my life any worse off because of this? Of course not. Am I disappointed? Ehhhhhhh, yeah a little. 😆</p>\n",
+				"content_text": "(2/2) However, having stopped using Spotify, I can't partake in Spotify wrapped this year. Now, is my life any worse off because of this? Of course not. Am I disappointed? Ehhhhhhh, yeah a little. 😆\n",
+				"date_published": "2024-12-04T09:09:09-05:00",
+				"url": "https://alexanderbellgram.com/2024/12/04/however-having-stopped.html"
+			},
+			{
+				"id": "http://alexanderbellgram.micro.blog/2024/12/04/so-i-stopped.html",
+				
+				"content_html": "<p>(1/2) So I stopped using Spotify as my main source of streaming music about half-way through the year and switched over to Apple Music. The experience has been relatively smooth and painless. I&rsquo;m not so sure I hear the improvement in audio quality, but I think so? The placebo effect can be strong.</p>\n",
+				"content_text": "(1/2) So I stopped using Spotify as my main source of streaming music about half-way through the year and switched over to Apple Music. The experience has been relatively smooth and painless. I'm not so sure I hear the improvement in audio quality, but I think so? The placebo effect can be strong.\n",
+				"date_published": "2024-12-04T09:07:43-05:00",
+				"url": "https://alexanderbellgram.com/2024/12/04/so-i-stopped.html"
+			},
+			{
+				"id": "http://alexanderbellgram.micro.blog/2024/12/03/ok-im-going.html",
+				
+				"content_html": "<p>Ok I&rsquo;m going to say something super controversial, but I&rsquo;d like to hear your thoughts. I actually think the new iOS Photos app is an improvement. I find that it&rsquo;s much more intuitive and I&rsquo;ve had no trouble navigating it or finding recent photos.</p>\n<p>I welcome your torches and pitchforks.</p>\n",
+				"content_text": "Ok I'm going to say something super controversial, but I'd like to hear your thoughts. I actually think the new iOS Photos app is an improvement. I find that it's much more intuitive and I've had no trouble navigating it or finding recent photos. \r\n\r\nI welcome your torches and pitchforks. \n",
+				"date_published": "2024-12-03T09:18:04-05:00",
+				"url": "https://alexanderbellgram.com/2024/12/03/ok-im-going.html"
+			},
+			{
+				"id": "http://alexanderbellgram.micro.blog/2024/12/02/spectrum-internet-service.html",
+				
+				"content_html": "<p>Spectrum internet service is down AGAIN in central Florida. 🙄</p>\n",
+				"content_text": "Spectrum internet service is down AGAIN in central Florida. 🙄\n",
+				"date_published": "2024-12-02T08:34:59-05:00",
+				"url": "https://alexanderbellgram.com/2024/12/02/spectrum-internet-service.html"
+			},
+			{
+				"id": "http://alexanderbellgram.micro.blog/2024/12/01/does-anyone-use.html",
+				
+				"content_html": "<p>Does anyone use Tumblr (besides <a href=\"https://micro.blog/crumbler@threads.net\">@crumbler@threads.net</a>) ? How about Medium?</p>\n",
+				"content_text": "Does anyone use Tumblr (besides [@crumbler@threads.net](https://micro.blog/crumbler@threads.net)) ? How about Medium?\n",
+				"date_published": "2024-12-01T16:38:41-05:00",
+				"url": "https://alexanderbellgram.com/2024/12/01/does-anyone-use.html"
+			},
 			{
 				"id": "http://alexanderbellgram.micro.blog/2024/12/01/my-friends-when.html",
 				
@@ -234,7 +314,7 @@
 				"id": "http://alexanderbellgram.micro.blog/2024/02/20/todays-map-the.html",
 				
 				"content_html": "<p>Today&rsquo;s map. The population density of China. RealLifeLore did a video on this as well: <a href=\"https://youtu.be/kVaBlat06Sw\">youtu.be/kVaBlat06&hellip;</a></p>\n<!-- raw HTML omitted -->\n",
-				"content_text": "Today's map. The population density of China. RealLifeLore did a video on this as well: [youtu.be/kVaBlat06...](https://youtu.be/kVaBlat06Sw)\n\n\n<img src=\"https://alexanderbellgram.com/uploads/2024/88f3566c02.jpeg\" width=\"600\" height=\"450\" alt=\"\">\n",
+				"content_text": "Today's map. The population density of China. RealLifeLore did a video on this as well: [youtu.be/kVaBlat06...](https://youtu.be/kVaBlat06Sw)\n\n\n<img src=\"uploads/2024/88f3566c02.jpeg\" width=\"600\" height=\"450\" alt=\"\">\n",
 				"date_published": "2024-02-20T10:38:15-05:00",
 				"url": "https://alexanderbellgram.com/2024/02/20/todays-map-the.html"
 			},

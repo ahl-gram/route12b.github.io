@@ -7,6 +7,30 @@
 	"items": [
 		
 			{
+				"id": "http://alexanderbellgram.micro.blog/2025/01/02/todays-unnecessary-program-for-var.html",
+				
+				"content_html": "<p>Today&rsquo;s unnecessary program:</p>\n<pre tabindex=\"0\"><code>for (var pow = 0; pow &lt;= 21; pow++)\r\n{\r\n    for (var i = 1; i &lt;= 9; i++)\r\n    {\r\n        var num = i * Math.Pow(10, pow);\r\n        Console.WriteLine(num.ToString(&quot;N0&quot;));\r\n    }\r\n}\r\n</code></pre>",
+				"content_text": "Today's unnecessary program:\r\n\r\n\r\n```\r\nfor (var pow = 0; pow <= 21; pow++)\r\n{\r\n    for (var i = 1; i <= 9; i++)\r\n    {\r\n        var num = i * Math.Pow(10, pow);\r\n        Console.WriteLine(num.ToString(\"N0\"));\r\n    }\r\n}\r\n```\n",
+				"date_published": "2025-01-02T12:29:18-05:00",
+				"url": "https://alexanderbellgram.com/2025/01/02/todays-unnecessary-program-for-var.html"
+			},
+			{
+				"id": "http://alexanderbellgram.micro.blog/2025/01/02/wishing-happy-new-year-after.html",
+				
+				"content_html": "<p>Wishing happy new year after someone died in an explosion is crazy.</p>\n<p><a href=\"https://daringfireball.net/linked/2025/01/01/cybertruck-explodes-trump-las-vegas\">daringfireball.net/linked/20&hellip;</a></p>\n",
+				"content_text": "Wishing happy new year after someone died in an explosion is crazy.\r\n\r\n[daringfireball.net/linked/20...](https://daringfireball.net/linked/2025/01/01/cybertruck-explodes-trump-las-vegas)\n",
+				"date_published": "2025-01-02T10:38:23-05:00",
+				"url": "https://alexanderbellgram.com/2025/01/02/wishing-happy-new-year-after.html"
+			},
+			{
+				"id": "http://alexanderbellgram.micro.blog/2024/12/31/happy-new-year-yall.html",
+				
+				"content_html": "<p>Happy New Year, y&rsquo;all. 🎉</p>\n",
+				"content_text": "Happy New Year, y'all. 🎉\n",
+				"date_published": "2024-12-31T15:39:05-05:00",
+				"url": "https://alexanderbellgram.com/2024/12/31/happy-new-year-yall.html"
+			},
+			{
 				"id": "http://alexanderbellgram.micro.blog/2024/12/28/knowing-my-anxiety-type-just.html",
 				
 				"content_html": "<p>Knowing my anxiety type just gives me more anxiety. No thanks.</p>\n",
@@ -26,7 +50,7 @@
 				"id": "http://alexanderbellgram.micro.blog/2024/12/20/ha-thanks-for.html",
 				
 				"content_html": "<p>Ha! Thanks for the mention, <a href=\"https://www.threads.net/@attorneyryan\">attorneyryan</a>!</p>\n<!-- raw HTML omitted -->\n",
-				"content_text": "Ha! Thanks for the mention, [attorneyryan](https://www.threads.net/@attorneyryan)!\r\n\n\n<img src=\"uploads/2024/img-3779.jpeg\" width=\"382\" height=\"600\" alt=\"\">\n",
+				"content_text": "Ha! Thanks for the mention, [attorneyryan](https://www.threads.net/@attorneyryan)!\r\n\n\n<img src=\"https://alexanderbellgram.com/uploads/2024/img-3779.jpeg\" width=\"382\" height=\"600\" alt=\"\">\n",
 				"date_published": "2024-12-20T17:42:29-05:00",
 				"url": "https://alexanderbellgram.com/2024/12/20/ha-thanks-for.html"
 			},
@@ -58,7 +82,7 @@
 				"id": "http://alexanderbellgram.micro.blog/2024/12/13/the-us-department.html",
 				
 				"content_html": "<p>The US Department of Defense releases it&rsquo;s latest <a href=\"https://www.defense.gov/News/News-Stories/Article/Article/4000004/test/\">statement</a> on the drones flying over New Jersey.\n<!-- raw HTML omitted --></p>\n",
-				"content_text": "The US Department of Defense releases it's latest [statement](https://www.defense.gov/News/News-Stories/Article/Article/4000004/test/) on the drones flying over New Jersey.\r\n<img src=\"uploads/2024/0cf9a84560.png\" alt=\"\">\n",
+				"content_text": "The US Department of Defense releases it's latest [statement](https://www.defense.gov/News/News-Stories/Article/Article/4000004/test/) on the drones flying over New Jersey.\r\n<img src=\"https://alexanderbellgram.com/uploads/2024/0cf9a84560.png\" alt=\"\">\n",
 				"date_published": "2024-12-13T11:34:15-05:00",
 				"url": "https://alexanderbellgram.com/2024/12/13/the-us-department.html"
 			},
@@ -98,7 +122,7 @@
 				"id": "http://alexanderbellgram.micro.blog/2024/12/11/its-mind-blowing.html",
 				
 				"content_html": "<p>It&rsquo;s mind blowing how a well thought out <a href=\"https://alexanderbellgram.com/2024/12/09/here-we-are.html\">post</a> with slight turns of phrase about reaching a birthday milestone obtains meh-levels of engagement, but paraphrasing (not even quoting!) a throw away line from a Chevy Chase movie garners nearly influencer levels of engagement. Never change, Threads.\n<!-- raw HTML omitted --></p>\n",
-				"content_text": "It's mind blowing how a well thought out [post](https://alexanderbellgram.com/2024/12/09/here-we-are.html) with slight turns of phrase about reaching a birthday milestone obtains meh-levels of engagement, but paraphrasing (not even quoting!) a throw away line from a Chevy Chase movie garners nearly influencer levels of engagement. Never change, Threads.\r\n<img src=\"uploads/2024/image.png\" alt=\"\">\n",
+				"content_text": "It's mind blowing how a well thought out [post](https://alexanderbellgram.com/2024/12/09/here-we-are.html) with slight turns of phrase about reaching a birthday milestone obtains meh-levels of engagement, but paraphrasing (not even quoting!) a throw away line from a Chevy Chase movie garners nearly influencer levels of engagement. Never change, Threads.\r\n<img src=\"https://alexanderbellgram.com/uploads/2024/image.png\" alt=\"\">\n",
 				"date_published": "2024-12-11T08:22:26-05:00",
 				"url": "https://alexanderbellgram.com/2024/12/11/its-mind-blowing.html"
 			},
@@ -122,7 +146,7 @@
 				"id": "http://alexanderbellgram.micro.blog/2024/12/06/damn.html",
 				
 				"content_html": "<p>Damn.</p>\n<!-- raw HTML omitted -->\n",
-				"content_text": "Damn. \n\n<img src=\"uploads/2024/482bd0c86d.jpg\" width=\"600\" height=\"133\" alt=\"\">\n",
+				"content_text": "Damn. \n\n<img src=\"https://alexanderbellgram.com/uploads/2024/482bd0c86d.jpg\" width=\"600\" height=\"133\" alt=\"\">\n",
 				"date_published": "2024-12-06T18:49:19-05:00",
 				"url": "https://alexanderbellgram.com/2024/12/06/damn.html"
 			},
@@ -434,7 +458,7 @@
 				"id": "http://alexanderbellgram.micro.blog/2024/02/20/todays-map-the.html",
 				
 				"content_html": "<p>Today&rsquo;s map. The population density of China. RealLifeLore did a video on this as well: <a href=\"https://youtu.be/kVaBlat06Sw\">youtu.be/kVaBlat06&hellip;</a></p>\n<!-- raw HTML omitted -->\n",
-				"content_text": "Today's map. The population density of China. RealLifeLore did a video on this as well: [youtu.be/kVaBlat06...](https://youtu.be/kVaBlat06Sw)\n\n\n<img src=\"uploads/2024/88f3566c02.jpeg\" width=\"600\" height=\"450\" alt=\"\">\n",
+				"content_text": "Today's map. The population density of China. RealLifeLore did a video on this as well: [youtu.be/kVaBlat06...](https://youtu.be/kVaBlat06Sw)\n\n\n<img src=\"https://alexanderbellgram.com/uploads/2024/88f3566c02.jpeg\" width=\"600\" height=\"450\" alt=\"\">\n",
 				"date_published": "2024-02-20T10:38:15-05:00",
 				"url": "https://alexanderbellgram.com/2024/02/20/todays-map-the.html"
 			},

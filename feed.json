@@ -7,6 +7,54 @@
 	"items": [
 		
 			{
+				"id": "http://alexanderbellgram.micro.blog/2025/01/09/one-of-the-features-on.html",
+				
+				"content_html": "<p>One of the features on iPhone 16 Pro that impressed me the most? Not Apple Intelligence, not camera control, not standby mode. But rather hearing my morning alarm loop in a 4 bar tempo correctly in time rather than cutting out for a second before repeating like on my old 12 pro. Truly magical.</p>\n",
+				"content_text": "One of the features on iPhone 16 Pro that impressed me the most? Not Apple Intelligence, not camera control, not standby mode. But rather hearing my morning alarm loop in a 4 bar tempo correctly in time rather than cutting out for a second before repeating like on my old 12 pro. Truly magical.\n",
+				"date_published": "2025-01-09T12:45:30-05:00",
+				"url": "https://alexanderbellgram.com/2025/01/09/one-of-the-features-on.html"
+			},
+			{
+				"id": "http://alexanderbellgram.micro.blog/2025/01/06/buy-new-iphone-pro-buy.html",
+				
+				"content_html": "<ol>\n<li>Buy new iPhone 16 Pro.</li>\n<li>Buy Apple Magsafe silicone case for said iPhone.</li>\n<li>Buy Belkin 2 in 1 Qi2 charger.</li>\n<li>(Last step and this is critical!) Look up difference between Magsafe and Qi2.</li>\n</ol>\n<p>It only makes sense to do the research AFTER the purchases.</p>\n",
+				"content_text": "1. Buy new iPhone 16 Pro.\r\n2. Buy Apple Magsafe silicone case for said iPhone.\r\n3. Buy Belkin 2 in 1 Qi2 charger.\r\n4. (Last step and this is critical!) Look up difference between Magsafe and Qi2. \r\n\r\nIt only makes sense to do the research AFTER the purchases.\n",
+				"date_published": "2025-01-06T09:24:33-05:00",
+				"url": "https://alexanderbellgram.com/2025/01/06/buy-new-iphone-pro-buy.html"
+			},
+			{
+				"id": "http://alexanderbellgram.micro.blog/2025/01/05/tried-out-the-free-elevenlabs.html",
+				
+				"content_html": "<p>Tried out the free (!) <a href=\"https://elevenlabs.io/text-reader\">ElevenLabs app</a>. For an absolutely free app (no subscriptions), it&rsquo;s pretty slick. You can link to a news article and have it read to you in your favorite AI voice, or try out the new podcast tool where the article is summarized in podcast form.</p>\n",
+				"content_text": "Tried out the free (!) [ElevenLabs app](https://elevenlabs.io/text-reader). For an absolutely free app (no subscriptions), it's pretty slick. You can link to a news article and have it read to you in your favorite AI voice, or try out the new podcast tool where the article is summarized in podcast form.\n",
+				"date_published": "2025-01-05T09:54:28-05:00",
+				"url": "https://alexanderbellgram.com/2025/01/05/tried-out-the-free-elevenlabs.html"
+			},
+			{
+				"id": "http://alexanderbellgram.micro.blog/2025/01/04/its-the-beginning-of-the.html",
+				
+				"content_html": "<p>It’s the <a href=\"https://www.axios.com/2025/01/04/landline-phone-copper-att\">beginning of the end</a> for landline phone service.</p>\n",
+				"content_text": "It’s the [beginning of the end](https://www.axios.com/2025/01/04/landline-phone-copper-att) for landline phone service. \n",
+				"date_published": "2025-01-04T08:38:34-05:00",
+				"url": "https://alexanderbellgram.com/2025/01/04/its-the-beginning-of-the.html"
+			},
+			{
+				"id": "http://alexanderbellgram.micro.blog/2025/01/03/todays-unnecessary-program-var-random.html",
+				
+				"content_html": "<p>Today&rsquo;s unnecessary program:</p>\n<pre tabindex=\"0\"><code>var random = new Random();\r\nvar outputNum = random.Next(1, 1001);\r\nConsole.WriteLine(outputNum);\r\nwhile (outputNum &gt; 1)\r\n{\r\n\tif (outputNum % 2 != 0)\r\n\t{\r\n\t\toutputNum++;\r\n\t\tConsole.WriteLine(outputNum);\r\n\t}\r\n\toutputNum = outputNum / 2;\r\n\tConsole.WriteLine(outputNum);\r\n}\r\n</code></pre>",
+				"content_text": "Today's unnecessary program:\r\n\r\n```\r\nvar random = new Random();\r\nvar outputNum = random.Next(1, 1001);\r\nConsole.WriteLine(outputNum);\r\nwhile (outputNum > 1)\r\n{\r\n\tif (outputNum % 2 != 0)\r\n\t{\r\n\t\toutputNum++;\r\n\t\tConsole.WriteLine(outputNum);\r\n\t}\r\n\toutputNum = outputNum / 2;\r\n\tConsole.WriteLine(outputNum);\r\n}\r\n```\n",
+				"date_published": "2025-01-03T13:05:51-05:00",
+				"url": "https://alexanderbellgram.com/2025/01/03/todays-unnecessary-program-var-random.html"
+			},
+			{
+				"id": "http://alexanderbellgram.micro.blog/2025/01/02/im-happy-to-have-been.html",
+				
+				"content_html": "<p>I’m happy to have been completely oblivious to Honey’s existence and to have always just searched coupon codes manually on the web. Like an animal.</p>\n",
+				"content_text": "I’m happy to have been completely oblivious to Honey’s existence and to have always just searched coupon codes manually on the web. Like an animal. \n",
+				"date_published": "2025-01-02T20:20:46-05:00",
+				"url": "https://alexanderbellgram.com/2025/01/02/im-happy-to-have-been.html"
+			},
+			{
 				"id": "http://alexanderbellgram.micro.blog/2025/01/02/todays-unnecessary-program-for-var.html",
 				
 				"content_html": "<p>Today&rsquo;s unnecessary program:</p>\n<pre tabindex=\"0\"><code>for (var pow = 0; pow &lt;= 21; pow++)\r\n{\r\n    for (var i = 1; i &lt;= 9; i++)\r\n    {\r\n        var num = i * Math.Pow(10, pow);\r\n        Console.WriteLine(num.ToString(&quot;N0&quot;));\r\n    }\r\n}\r\n</code></pre>",
@@ -50,7 +98,7 @@
 				"id": "http://alexanderbellgram.micro.blog/2024/12/20/ha-thanks-for.html",
 				
 				"content_html": "<p>Ha! Thanks for the mention, <a href=\"https://www.threads.net/@attorneyryan\">attorneyryan</a>!</p>\n<!-- raw HTML omitted -->\n",
-				"content_text": "Ha! Thanks for the mention, [attorneyryan](https://www.threads.net/@attorneyryan)!\r\n\n\n<img src=\"https://alexanderbellgram.com/uploads/2024/img-3779.jpeg\" width=\"382\" height=\"600\" alt=\"\">\n",
+				"content_text": "Ha! Thanks for the mention, [attorneyryan](https://www.threads.net/@attorneyryan)!\r\n\n\n<img src=\"uploads/2024/img-3779.jpeg\" width=\"382\" height=\"600\" alt=\"\">\n",
 				"date_published": "2024-12-20T17:42:29-05:00",
 				"url": "https://alexanderbellgram.com/2024/12/20/ha-thanks-for.html"
 			},
@@ -82,7 +130,7 @@
 				"id": "http://alexanderbellgram.micro.blog/2024/12/13/the-us-department.html",
 				
 				"content_html": "<p>The US Department of Defense releases it&rsquo;s latest <a href=\"https://www.defense.gov/News/News-Stories/Article/Article/4000004/test/\">statement</a> on the drones flying over New Jersey.\n<!-- raw HTML omitted --></p>\n",
-				"content_text": "The US Department of Defense releases it's latest [statement](https://www.defense.gov/News/News-Stories/Article/Article/4000004/test/) on the drones flying over New Jersey.\r\n<img src=\"https://alexanderbellgram.com/uploads/2024/0cf9a84560.png\" alt=\"\">\n",
+				"content_text": "The US Department of Defense releases it's latest [statement](https://www.defense.gov/News/News-Stories/Article/Article/4000004/test/) on the drones flying over New Jersey.\r\n<img src=\"uploads/2024/0cf9a84560.png\" alt=\"\">\n",
 				"date_published": "2024-12-13T11:34:15-05:00",
 				"url": "https://alexanderbellgram.com/2024/12/13/the-us-department.html"
 			},
@@ -122,7 +170,7 @@
 				"id": "http://alexanderbellgram.micro.blog/2024/12/11/its-mind-blowing.html",
 				
 				"content_html": "<p>It&rsquo;s mind blowing how a well thought out <a href=\"https://alexanderbellgram.com/2024/12/09/here-we-are.html\">post</a> with slight turns of phrase about reaching a birthday milestone obtains meh-levels of engagement, but paraphrasing (not even quoting!) a throw away line from a Chevy Chase movie garners nearly influencer levels of engagement. Never change, Threads.\n<!-- raw HTML omitted --></p>\n",
-				"content_text": "It's mind blowing how a well thought out [post](https://alexanderbellgram.com/2024/12/09/here-we-are.html) with slight turns of phrase about reaching a birthday milestone obtains meh-levels of engagement, but paraphrasing (not even quoting!) a throw away line from a Chevy Chase movie garners nearly influencer levels of engagement. Never change, Threads.\r\n<img src=\"https://alexanderbellgram.com/uploads/2024/image.png\" alt=\"\">\n",
+				"content_text": "It's mind blowing how a well thought out [post](https://alexanderbellgram.com/2024/12/09/here-we-are.html) with slight turns of phrase about reaching a birthday milestone obtains meh-levels of engagement, but paraphrasing (not even quoting!) a throw away line from a Chevy Chase movie garners nearly influencer levels of engagement. Never change, Threads.\r\n<img src=\"uploads/2024/image.png\" alt=\"\">\n",
 				"date_published": "2024-12-11T08:22:26-05:00",
 				"url": "https://alexanderbellgram.com/2024/12/11/its-mind-blowing.html"
 			},
@@ -146,7 +194,7 @@
 				"id": "http://alexanderbellgram.micro.blog/2024/12/06/damn.html",
 				
 				"content_html": "<p>Damn.</p>\n<!-- raw HTML omitted -->\n",
-				"content_text": "Damn. \n\n<img src=\"https://alexanderbellgram.com/uploads/2024/482bd0c86d.jpg\" width=\"600\" height=\"133\" alt=\"\">\n",
+				"content_text": "Damn. \n\n<img src=\"uploads/2024/482bd0c86d.jpg\" width=\"600\" height=\"133\" alt=\"\">\n",
 				"date_published": "2024-12-06T18:49:19-05:00",
 				"url": "https://alexanderbellgram.com/2024/12/06/damn.html"
 			},
@@ -458,7 +506,7 @@
 				"id": "http://alexanderbellgram.micro.blog/2024/02/20/todays-map-the.html",
 				
 				"content_html": "<p>Today&rsquo;s map. The population density of China. RealLifeLore did a video on this as well: <a href=\"https://youtu.be/kVaBlat06Sw\">youtu.be/kVaBlat06&hellip;</a></p>\n<!-- raw HTML omitted -->\n",
-				"content_text": "Today's map. The population density of China. RealLifeLore did a video on this as well: [youtu.be/kVaBlat06...](https://youtu.be/kVaBlat06Sw)\n\n\n<img src=\"https://alexanderbellgram.com/uploads/2024/88f3566c02.jpeg\" width=\"600\" height=\"450\" alt=\"\">\n",
+				"content_text": "Today's map. The population density of China. RealLifeLore did a video on this as well: [youtu.be/kVaBlat06...](https://youtu.be/kVaBlat06Sw)\n\n\n<img src=\"uploads/2024/88f3566c02.jpeg\" width=\"600\" height=\"450\" alt=\"\">\n",
 				"date_published": "2024-02-20T10:38:15-05:00",
 				"url": "https://alexanderbellgram.com/2024/02/20/todays-map-the.html"
 			},

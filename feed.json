@@ -7,6 +7,38 @@
 	"items": [
 		
 			{
+				"id": "http://alexanderbellgram.micro.blog/2025/02/13/this-is-one-of-those.html",
+				
+				"content_html": "<p>This is one of those rare <a href=\"https://www.linkedin.com/posts/krisrchase_the-end-of-programming-as-we-know-it-activity-7293653349059436544-FbR0\">takes</a> that really nails it. I love the comparison with the industrial and PC revolutions. I posted something similar (but not nearly as smart) somewhere. It sounds ominous, but it really isn&rsquo;t. Highly recommended reading.</p>\n",
+				"content_text": "This is one of those rare [takes](https://www.linkedin.com/posts/krisrchase_the-end-of-programming-as-we-know-it-activity-7293653349059436544-FbR0) that really nails it. I love the comparison with the industrial and PC revolutions. I posted something similar (but not nearly as smart) somewhere. It sounds ominous, but it really isn't. Highly recommended reading.\n",
+				"date_published": "2025-02-13T08:35:04-05:00",
+				"url": "https://alexanderbellgram.com/2025/02/13/this-is-one-of-those.html"
+			},
+			{
+				"id": "http://alexanderbellgram.micro.blog/2025/02/11/i-really-liked-foxs-scorebug.html",
+				
+				"content_html": "<p>I really liked Fox’s scorebug that was shown during the Super Bowl. Reminiscent of older broadcasts. Classy and easy to read.</p>\n",
+				"content_text": "I really liked Fox’s scorebug that was shown during the Super Bowl. Reminiscent of older broadcasts. Classy and easy to read.  \n",
+				"date_published": "2025-02-11T03:17:48-05:00",
+				"url": "https://alexanderbellgram.com/2025/02/11/i-really-liked-foxs-scorebug.html"
+			},
+			{
+				"id": "http://alexanderbellgram.micro.blog/2025/02/08/dear-internet-stop-giving-away.html",
+				
+				"content_html": "<p>Dear Internet, stop giving away your Severance theories! They&rsquo;re basically spoilers.</p>\n",
+				"content_text": "Dear Internet, stop giving away your Severance theories! They're basically spoilers.\n",
+				"date_published": "2025-02-08T09:30:56-05:00",
+				"url": "https://alexanderbellgram.com/2025/02/08/dear-internet-stop-giving-away.html"
+			},
+			{
+				"id": "http://alexanderbellgram.micro.blog/2025/02/07/as-an-apple-news-user.html",
+				
+				"content_html": "<p>As an Apple News+ user one of the most frustrating things is that there&rsquo;s no easy way to open the current News App article in the default browser (for sharing with a non-News App user, for example). The process I depended on was opening the share sheet, copying the link and then switching to the browser. With the help of AI, I finally have a <a href=\"https://www.icloud.com/shortcuts/7942637f616c4e57a24335374369d2b7\">shortcut</a> that I have added to the share sheet which does this automatically.</p>\n<!-- raw HTML omitted -->\n",
+				"content_text": "As an Apple News+ user one of the most frustrating things is that there's no easy way to open the current News App article in the default browser (for sharing with a non-News App user, for example). The process I depended on was opening the share sheet, copying the link and then switching to the browser. With the help of AI, I finally have a [shortcut](https://www.icloud.com/shortcuts/7942637f616c4e57a24335374369d2b7) that I have added to the share sheet which does this automatically. \n\n<img src=\"uploads/2025/5139225965.jpg\" width=\"600\" height=\"569\" alt=\"\">\n",
+				"date_published": "2025-02-07T15:28:40-05:00",
+				"url": "https://alexanderbellgram.com/2025/02/07/as-an-apple-news-user.html"
+			},
+			{
 				"id": "http://alexanderbellgram.micro.blog/2025/02/07/for-anyone-looking-for-a.html",
 				
 				"content_html": "<p>For anyone looking for a good, lightly-used white noise machine, I have a 2019 Intel MacBook Pro that fits the bill perfectly.</p>\n",
@@ -26,7 +58,7 @@
 				"id": "http://alexanderbellgram.micro.blog/2025/02/02/thats-right-woodchuck-chuckers-its.html",
 				
 				"content_html": "<p>That’s right, woodchuck chuckers! It’s Groundhog Day!</p>\n<!-- raw HTML omitted -->\n",
-				"content_text": "That’s right, woodchuck chuckers! It’s Groundhog Day!\n\n\n<img src=\"uploads/2025/6383f2bddd.png\" width=\"600\" height=\"600\" alt=\"\">\n",
+				"content_text": "That’s right, woodchuck chuckers! It’s Groundhog Day!\n\n\n<img src=\"https://alexanderbellgram.com/uploads/2025/6383f2bddd.png\" width=\"600\" height=\"600\" alt=\"\">\n",
 				"date_published": "2025-02-02T07:52:53-05:00",
 				"url": "https://alexanderbellgram.com/2025/02/02/thats-right-woodchuck-chuckers-its.html"
 			},

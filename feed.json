@@ -7,6 +7,14 @@
 	"items": [
 		
 			{
+				"id": "http://alexanderbellgram.micro.blog/2025/02/25/this-is-a-test-blog.html",
+				"title": "This is a test blog post",
+				"content_html": "<p>This is the test body. I wouldn&rsquo;t expect this to show up.</p>\n",
+				"content_text": "This is the test body. I wouldn't expect this to show up.\n",
+				"date_published": "2025-02-25T08:38:10-05:00",
+				"url": "https://alexanderbellgram.com/2025/02/25/this-is-a-test-blog.html"
+			},
+			{
 				"id": "http://alexanderbellgram.micro.blog/2025/02/13/this-is-one-of-those.html",
 				
 				"content_html": "<p>This is one of those rare <a href=\"https://www.linkedin.com/posts/krisrchase_the-end-of-programming-as-we-know-it-activity-7293653349059436544-FbR0\">takes</a> that really nails it. I love the comparison with the industrial and PC revolutions. I posted something similar (but not nearly as smart) somewhere. It sounds ominous, but it really isn&rsquo;t. Highly recommended reading.</p>\n",
@@ -58,7 +66,7 @@
 				"id": "http://alexanderbellgram.micro.blog/2025/02/02/thats-right-woodchuck-chuckers-its.html",
 				
 				"content_html": "<p>That’s right, woodchuck chuckers! It’s Groundhog Day!</p>\n<!-- raw HTML omitted -->\n",
-				"content_text": "That’s right, woodchuck chuckers! It’s Groundhog Day!\n\n\n<img src=\"https://alexanderbellgram.com/uploads/2025/6383f2bddd.png\" width=\"600\" height=\"600\" alt=\"\">\n",
+				"content_text": "That’s right, woodchuck chuckers! It’s Groundhog Day!\n\n\n<img src=\"uploads/2025/6383f2bddd.png\" width=\"600\" height=\"600\" alt=\"\">\n",
 				"date_published": "2025-02-02T07:52:53-05:00",
 				"url": "https://alexanderbellgram.com/2025/02/02/thats-right-woodchuck-chuckers-its.html"
 			},
@@ -82,7 +90,7 @@
 				"id": "http://alexanderbellgram.micro.blog/2025/01/26/as-a-software-engineering-leader.html",
 				
 				"content_html": "<p>As a software engineering leader, my role often feels like a balancing act: juggling technical challenges, team dynamics, and quarterly objectives - all while trying to ensure the team feels supported, empowered, and safe. In the middle of all this, it’s easy to fall into the trap of wanting to fix every problem that comes my way. But what if the most impactful thing to do isn’t to fix anything at all, but to listen?</p>\n<p>Active listening is a skill that transforms how you lead. It’s not just about hearing words, it’s about empathizing with the emotions, concerns, and ideas behind them. When listening, and <em>not</em> interrupting to offer a solution right away, you create a space where your team feels heard. This fosters trust, encourages collaboration, and improves morale. Oftentimes, the best ideas can come from the people closest to the problem.</p>\n<p>Here’s the hard part: resist the urge to jump in and fix things. You got to listen to your team! As engineers, we’re hard-wired to solve problems, many times immediately. But when you offer solutions without listening to others' concerns, you risk shutting down creativity or making your team feel like their input isn’t valued. In other words, let them finish. When you feel it’s the right time to speak, try asking open-ended questions like, “what do you think the next step should be?” or “how can I support you in this?” This empowers your team and gives them confidence that they’re truly being heard.</p>\n<p>Active listening also helps you uncover the root of issues. Sometimes, what seems like a technical problem is actually a communication gap, a misalignment of priorities, or even a personal challenge. By listening deeply, you can address the real problem, not just the symptoms. So, the next time a team member comes to you with a challenge, pause. Resist the urge to interrupt and fix. Listen with curiosity and empathy. You might be surprised at how much more effective, and connected, your leadership becomes.</p>\n<!-- raw HTML omitted -->\n",
-				"content_text": "As a software engineering leader, my role often feels like a balancing act: juggling technical challenges, team dynamics, and quarterly objectives - all while trying to ensure the team feels supported, empowered, and safe. In the middle of all this, it’s easy to fall into the trap of wanting to fix every problem that comes my way. But what if the most impactful thing to do isn’t to fix anything at all, but to listen? \r\n\r\n\r\nActive listening is a skill that transforms how you lead. It’s not just about hearing words, it’s about empathizing with the emotions, concerns, and ideas behind them. When listening, and *not* interrupting to offer a solution right away, you create a space where your team feels heard. This fosters trust, encourages collaboration, and improves morale. Oftentimes, the best ideas can come from the people closest to the problem.\r\n\r\n\r\nHere’s the hard part: resist the urge to jump in and fix things. You got to listen to your team! As engineers, we’re hard-wired to solve problems, many times immediately. But when you offer solutions without listening to others' concerns, you risk shutting down creativity or making your team feel like their input isn’t valued. In other words, let them finish. When you feel it’s the right time to speak, try asking open-ended questions like, “what do you think the next step should be?” or “how can I support you in this?” This empowers your team and gives them confidence that they’re truly being heard. \r\n\r\n\r\nActive listening also helps you uncover the root of issues. Sometimes, what seems like a technical problem is actually a communication gap, a misalignment of priorities, or even a personal challenge. By listening deeply, you can address the real problem, not just the symptoms. So, the next time a team member comes to you with a challenge, pause. Resist the urge to interrupt and fix. Listen with curiosity and empathy. You might be surprised at how much more effective, and connected, your leadership becomes.\r\n\r\n\n\n<img src=\"https://alexanderbellgram.com/uploads/2025/untitled.jpg\" width=\"600\" height=\"282\" alt=\"\">\n",
+				"content_text": "As a software engineering leader, my role often feels like a balancing act: juggling technical challenges, team dynamics, and quarterly objectives - all while trying to ensure the team feels supported, empowered, and safe. In the middle of all this, it’s easy to fall into the trap of wanting to fix every problem that comes my way. But what if the most impactful thing to do isn’t to fix anything at all, but to listen? \r\n\r\n\r\nActive listening is a skill that transforms how you lead. It’s not just about hearing words, it’s about empathizing with the emotions, concerns, and ideas behind them. When listening, and *not* interrupting to offer a solution right away, you create a space where your team feels heard. This fosters trust, encourages collaboration, and improves morale. Oftentimes, the best ideas can come from the people closest to the problem.\r\n\r\n\r\nHere’s the hard part: resist the urge to jump in and fix things. You got to listen to your team! As engineers, we’re hard-wired to solve problems, many times immediately. But when you offer solutions without listening to others' concerns, you risk shutting down creativity or making your team feel like their input isn’t valued. In other words, let them finish. When you feel it’s the right time to speak, try asking open-ended questions like, “what do you think the next step should be?” or “how can I support you in this?” This empowers your team and gives them confidence that they’re truly being heard. \r\n\r\n\r\nActive listening also helps you uncover the root of issues. Sometimes, what seems like a technical problem is actually a communication gap, a misalignment of priorities, or even a personal challenge. By listening deeply, you can address the real problem, not just the symptoms. So, the next time a team member comes to you with a challenge, pause. Resist the urge to interrupt and fix. Listen with curiosity and empathy. You might be surprised at how much more effective, and connected, your leadership becomes.\r\n\r\n\n\n<img src=\"uploads/2025/untitled.jpg\" width=\"600\" height=\"282\" alt=\"\">\n",
 				"date_published": "2025-01-26T11:25:20-05:00",
 				"url": "https://alexanderbellgram.com/2025/01/26/as-a-software-engineering-leader.html"
 			},
@@ -122,7 +130,7 @@
 				"id": "http://alexanderbellgram.micro.blog/2025/01/09/anyone-have-an-estimate-as.html",
 				
 				"content_html": "<p>Anyone have an estimate as to how long this should last? It’s been like this for about 24 hours now. To be fair it hasn’t always been plugged into power.</p>\n<!-- raw HTML omitted -->\n",
-				"content_text": "Anyone have an estimate as to how long this should last? It’s been like this for about 24 hours now. To be fair it hasn’t always been plugged into power. \n\n<img src=\"https://alexanderbellgram.com/uploads/2025/744ebfe381.jpg\" width=\"600\" height=\"586\" alt=\"\">\n",
+				"content_text": "Anyone have an estimate as to how long this should last? It’s been like this for about 24 hours now. To be fair it hasn’t always been plugged into power. \n\n<img src=\"uploads/2025/744ebfe381.jpg\" width=\"600\" height=\"586\" alt=\"\">\n",
 				"date_published": "2025-01-09T17:29:58-05:00",
 				"url": "https://alexanderbellgram.com/2025/01/09/anyone-have-an-estimate-as.html"
 			},
@@ -218,7 +226,7 @@
 				"id": "http://alexanderbellgram.micro.blog/2024/12/20/ha-thanks-for.html",
 				
 				"content_html": "<p>Ha! Thanks for the mention, <a href=\"https://www.threads.net/@attorneyryan\">attorneyryan</a>!</p>\n<!-- raw HTML omitted -->\n",
-				"content_text": "Ha! Thanks for the mention, [attorneyryan](https://www.threads.net/@attorneyryan)!\r\n\n\n<img src=\"https://alexanderbellgram.com/uploads/2024/img-3779.jpeg\" width=\"382\" height=\"600\" alt=\"\">\n",
+				"content_text": "Ha! Thanks for the mention, [attorneyryan](https://www.threads.net/@attorneyryan)!\r\n\n\n<img src=\"uploads/2024/img-3779.jpeg\" width=\"382\" height=\"600\" alt=\"\">\n",
 				"date_published": "2024-12-20T17:42:29-05:00",
 				"url": "https://alexanderbellgram.com/2024/12/20/ha-thanks-for.html"
 			},
@@ -250,7 +258,7 @@
 				"id": "http://alexanderbellgram.micro.blog/2024/12/13/the-us-department.html",
 				
 				"content_html": "<p>The US Department of Defense releases it&rsquo;s latest <a href=\"https://www.defense.gov/News/News-Stories/Article/Article/4000004/test/\">statement</a> on the drones flying over New Jersey.\n<!-- raw HTML omitted --></p>\n",
-				"content_text": "The US Department of Defense releases it's latest [statement](https://www.defense.gov/News/News-Stories/Article/Article/4000004/test/) on the drones flying over New Jersey.\r\n<img src=\"https://alexanderbellgram.com/uploads/2024/0cf9a84560.png\" alt=\"\">\n",
+				"content_text": "The US Department of Defense releases it's latest [statement](https://www.defense.gov/News/News-Stories/Article/Article/4000004/test/) on the drones flying over New Jersey.\r\n<img src=\"uploads/2024/0cf9a84560.png\" alt=\"\">\n",
 				"date_published": "2024-12-13T11:34:15-05:00",
 				"url": "https://alexanderbellgram.com/2024/12/13/the-us-department.html"
 			},
@@ -290,7 +298,7 @@
 				"id": "http://alexanderbellgram.micro.blog/2024/12/11/its-mind-blowing.html",
 				
 				"content_html": "<p>It&rsquo;s mind blowing how a well thought out <a href=\"https://alexanderbellgram.com/2024/12/09/here-we-are.html\">post</a> with slight turns of phrase about reaching a birthday milestone obtains meh-levels of engagement, but paraphrasing (not even quoting!) a throw away line from a Chevy Chase movie garners nearly influencer levels of engagement. Never change, Threads.\n<!-- raw HTML omitted --></p>\n",
-				"content_text": "It's mind blowing how a well thought out [post](https://alexanderbellgram.com/2024/12/09/here-we-are.html) with slight turns of phrase about reaching a birthday milestone obtains meh-levels of engagement, but paraphrasing (not even quoting!) a throw away line from a Chevy Chase movie garners nearly influencer levels of engagement. Never change, Threads.\r\n<img src=\"https://alexanderbellgram.com/uploads/2024/image.png\" alt=\"\">\n",
+				"content_text": "It's mind blowing how a well thought out [post](https://alexanderbellgram.com/2024/12/09/here-we-are.html) with slight turns of phrase about reaching a birthday milestone obtains meh-levels of engagement, but paraphrasing (not even quoting!) a throw away line from a Chevy Chase movie garners nearly influencer levels of engagement. Never change, Threads.\r\n<img src=\"uploads/2024/image.png\" alt=\"\">\n",
 				"date_published": "2024-12-11T08:22:26-05:00",
 				"url": "https://alexanderbellgram.com/2024/12/11/its-mind-blowing.html"
 			},
@@ -314,7 +322,7 @@
 				"id": "http://alexanderbellgram.micro.blog/2024/12/06/damn.html",
 				
 				"content_html": "<p>Damn.</p>\n<!-- raw HTML omitted -->\n",
-				"content_text": "Damn. \n\n<img src=\"https://alexanderbellgram.com/uploads/2024/482bd0c86d.jpg\" width=\"600\" height=\"133\" alt=\"\">\n",
+				"content_text": "Damn. \n\n<img src=\"uploads/2024/482bd0c86d.jpg\" width=\"600\" height=\"133\" alt=\"\">\n",
 				"date_published": "2024-12-06T18:49:19-05:00",
 				"url": "https://alexanderbellgram.com/2024/12/06/damn.html"
 			},
@@ -626,7 +634,7 @@
 				"id": "http://alexanderbellgram.micro.blog/2024/02/20/todays-map-the.html",
 				
 				"content_html": "<p>Today&rsquo;s map. The population density of China. RealLifeLore did a video on this as well: <a href=\"https://youtu.be/kVaBlat06Sw\">youtu.be/kVaBlat06&hellip;</a></p>\n<!-- raw HTML omitted -->\n",
-				"content_text": "Today's map. The population density of China. RealLifeLore did a video on this as well: [youtu.be/kVaBlat06...](https://youtu.be/kVaBlat06Sw)\n\n\n<img src=\"https://alexanderbellgram.com/uploads/2024/88f3566c02.jpeg\" width=\"600\" height=\"450\" alt=\"\">\n",
+				"content_text": "Today's map. The population density of China. RealLifeLore did a video on this as well: [youtu.be/kVaBlat06...](https://youtu.be/kVaBlat06Sw)\n\n\n<img src=\"uploads/2024/88f3566c02.jpeg\" width=\"600\" height=\"450\" alt=\"\">\n",
 				"date_published": "2024-02-20T10:38:15-05:00",
 				"url": "https://alexanderbellgram.com/2024/02/20/todays-map-the.html"
 			},

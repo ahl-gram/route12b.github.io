@@ -7,6 +7,38 @@
 	"items": [
 		
 			{
+				"id": "http://alexanderbellgram.micro.blog/2025/04/01/ok-good-so-no-more.html",
+				
+				"content_html": "<p>OK, good. So no more melting GPUs right?\n<!-- raw HTML omitted --></p>\n",
+				"content_text": "OK, good. So no more melting GPUs right?\r\n<img src=\"uploads/2025/6d62610ecc.png\" alt=\"\">\n",
+				"date_published": "2025-04-01T09:52:27-04:00",
+				"url": "https://alexanderbellgram.com/2025/04/01/ok-good-so-no-more.html"
+			},
+			{
+				"id": "http://alexanderbellgram.micro.blog/2025/03/30/took-the-image-of-the.html",
+				
+				"content_html": "<p>Took the image of the <a href=\"https://www.apple.com/mac/lumon-terminal-pro/\">Lumon Terminal Pro</a>, used a little GPT-4o magic and made a decent first-pass of an album cover for my Severance music playlist.</p>\n<!-- raw HTML omitted -->\n",
+				"content_text": "Took the image of the [Lumon Terminal Pro](https://www.apple.com/mac/lumon-terminal-pro/), used a little GPT-4o magic and made a decent first-pass of an album cover for my Severance music playlist.\r\n\n\n<img src=\"uploads/2025/lumon-better.png\" width=\"600\" height=\"400\" alt=\"\">\n",
+				"date_published": "2025-03-30T09:53:40-04:00",
+				"url": "https://alexanderbellgram.com/2025/03/30/took-the-image-of-the.html"
+			},
+			{
+				"id": "http://alexanderbellgram.micro.blog/2025/03/30/vibepainting-marie-antoinette-oil-on.html",
+				
+				"content_html": "<p>Vibe-painting. Marie Antoinette. Oil on GPT 4o.</p>\n<!-- raw HTML omitted -->\n",
+				"content_text": "Vibe-painting. Marie Antoinette. Oil on GPT 4o.\n\n<img src=\"uploads/2025/chatgpt-image-mar-27-2025-09-40-21-am.png\" width=\"400\" height=\"600\" alt=\"\">\n",
+				"date_published": "2025-03-30T08:53:58-04:00",
+				"url": "https://alexanderbellgram.com/2025/03/30/vibepainting-marie-antoinette-oil-on.html"
+			},
+			{
+				"id": "http://alexanderbellgram.micro.blog/2025/03/28/vibepainting-napoleon-bonaparte-oil-on.html",
+				
+				"content_html": "<p>Vibe-painting. Napoleon Bonaparte. Oil on ChatGPT.</p>\n<!-- raw HTML omitted -->\n",
+				"content_text": "Vibe-painting. Napoleon Bonaparte. Oil on ChatGPT.\n\n<img src=\"uploads/2025/chatgpt-image-mar-27-2025-09-21-07-am.png\" width=\"600\" height=\"600\" alt=\"\">\n",
+				"date_published": "2025-03-28T08:40:17-04:00",
+				"url": "https://alexanderbellgram.com/2025/03/28/vibepainting-napoleon-bonaparte-oil-on.html"
+			},
+			{
 				"id": "http://alexanderbellgram.micro.blog/2025/03/27/vibepainting-george-washington-oil-on.html",
 				
 				"content_html": "<p>Vibe-painting. George Washington. Oil on ChatGPT.</p>\n<!-- raw HTML omitted -->\n",
@@ -18,7 +50,7 @@
 				"id": "http://alexanderbellgram.micro.blog/2025/03/25/chatgpts-new-image-generation-capabilities.html",
 				
 				"content_html": "<p>ChatGPT’s new image generation capabilities are quite impressive.</p>\n<!-- raw HTML omitted -->\n",
-				"content_text": "ChatGPT’s new image generation capabilities are quite impressive. \n\n<img src=\"uploads/2025/64359fd78c.png\" width=\"400\" height=\"600\" alt=\"\">\n",
+				"content_text": "ChatGPT’s new image generation capabilities are quite impressive. \n\n<img src=\"https://alexanderbellgram.com/uploads/2025/64359fd78c.png\" width=\"400\" height=\"600\" alt=\"\">\n",
 				"date_published": "2025-03-25T21:17:59-04:00",
 				"url": "https://alexanderbellgram.com/2025/03/25/chatgpts-new-image-generation-capabilities.html"
 			},

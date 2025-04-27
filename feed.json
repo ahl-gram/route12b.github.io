@@ -7,6 +7,46 @@
 	"items": [
 		
 			{
+				"id": "http://alexanderbellgram.micro.blog/2025/04/27/my-favorite-comic-strip-while.html",
+				
+				"content_html": "<p>My favorite comic strip while growing up was Peanuts. I collected the Sundays and recorded all the specials on VHS. But I never knew that Charlie Brown was named after a <a href=\"https://historyfacts.com/arts-culture/fact/real-charlie-brown-real-person/\">real person</a>. While working as an art instructor in 1950, Charles Schulz asked Charlie Brown to use the name in his new strip.</p>\n",
+				"content_text": "My favorite comic strip while growing up was Peanuts. I collected the Sundays and recorded all the specials on VHS. But I never knew that Charlie Brown was named after a [real person](https://historyfacts.com/arts-culture/fact/real-charlie-brown-real-person/). While working as an art instructor in 1950, Charles Schulz asked Charlie Brown to use the name in his new strip.\n",
+				"date_published": "2025-04-27T11:24:48-04:00",
+				"url": "https://alexanderbellgram.com/2025/04/27/my-favorite-comic-strip-while.html"
+			},
+			{
+				"id": "http://alexanderbellgram.micro.blog/2025/04/26/the-system-prompt-is-down.html",
+				"title": "The System Prompt is Down",
+				"content_html": "<p>Why are AI system prompts being treated like digital gold, leaked and protected like user passwords? What’s the real difference between a system prompt and a user prompt?</p>\n<p>A system prompt acts like a hidden constitution: it defines the AI’s behavior, personality, and constraints across all conversations. In contrast, user prompts are the dynamic, moment to moment instructions we give, ephemeral and ever changing.</p>\n<p>System prompts are the result of extensive R&amp;D investment. They codify competitive advantage, encapsulate proprietary business logic, and increasingly represent a company’s core intellectual property.</p>\n<p>So it’s not surprising that system prompts have become valuable targets. We’ve already seen system prompt leaks from ChatGPT and Claude. Additionally, Cursor’s system prompt was leaked, revealing its internal instructions. And Perplexity AI’s system prompt was exposed through prompt injection techniques.</p>\n<p>For AI companies, protecting these prompts will require not just better technical defenses but also new legal frameworks specifically addressing the theft of prompt designs.</p>\n<p>For users, this is a reminder: AI models aren’t neutral or purely spontaneous. Every impressive output you see is shaped by a deliberately engineered system prompt, an invisible layer that’s becoming one of the most valuable assets in the AI industry.</p>\n<p>Sources:</p>\n<p><a href=\"https://www.nebuly.com/blog/llm-system-prompt-vs-user-prompt\">www.nebuly.com/blog/llm-&hellip;</a></p>\n<p><a href=\"https://www.geeky-gadgets.com/cursor-system-prompt-leak/\">www.geeky-gadgets.com/cursor-sy&hellip;</a></p>\n<p><a href=\"https://www.reddit.com/r/PromptEngineering/comments/1k1aaj2/full_leaked_devin_ai_system_prompts_and_tools_100/?rdt=61677\">www.reddit.com/r/PromptE&hellip;</a></p>\n<p><a href=\"https://dev.to/paka/reverse-engineering-perplexity-ai-prompt-injection-tricks-to-reveal-its-system-prompts-and-speed-secrets-16ce\">dev.to/paka/reve&hellip;</a></p>\n<!-- raw HTML omitted -->\n",
+				"content_text": "Why are AI system prompts being treated like digital gold, leaked and protected like user passwords? What’s the real difference between a system prompt and a user prompt?\n\nA system prompt acts like a hidden constitution: it defines the AI’s behavior, personality, and constraints across all conversations. In contrast, user prompts are the dynamic, moment to moment instructions we give, ephemeral and ever changing.\n\nSystem prompts are the result of extensive R&D investment. They codify competitive advantage, encapsulate proprietary business logic, and increasingly represent a company’s core intellectual property.\n\nSo it’s not surprising that system prompts have become valuable targets. We’ve already seen system prompt leaks from ChatGPT and Claude. Additionally, Cursor’s system prompt was leaked, revealing its internal instructions. And Perplexity AI’s system prompt was exposed through prompt injection techniques. \n\nFor AI companies, protecting these prompts will require not just better technical defenses but also new legal frameworks specifically addressing the theft of prompt designs.\n\nFor users, this is a reminder: AI models aren’t neutral or purely spontaneous. Every impressive output you see is shaped by a deliberately engineered system prompt, an invisible layer that’s becoming one of the most valuable assets in the AI industry.\n\nSources:\n\n[www.nebuly.com/blog/llm-...](https://www.nebuly.com/blog/llm-system-prompt-vs-user-prompt)\n\n[www.geeky-gadgets.com/cursor-sy...](https://www.geeky-gadgets.com/cursor-system-prompt-leak/)\n\n[www.reddit.com/r/PromptE...](https://www.reddit.com/r/PromptEngineering/comments/1k1aaj2/full_leaked_devin_ai_system_prompts_and_tools_100/?rdt=61677)\n\n[dev.to/paka/reve...](https://dev.to/paka/reverse-engineering-perplexity-ai-prompt-injection-tricks-to-reveal-its-system-prompts-and-speed-secrets-16ce)\n\n\n<img src=\"uploads/2025/0b61f54477.png\" width=\"400\" height=\"600\" alt=\"\">\n",
+				"date_published": "2025-04-26T05:50:20-04:00",
+				"url": "https://alexanderbellgram.com/2025/04/26/the-system-prompt-is-down.html"
+			},
+			{
+				"id": "http://alexanderbellgram.micro.blog/2025/04/24/chrome-covet.html",
+				"title": "Chrome Covet",
+				"content_html": "<p>No fewer than three companies: Yahoo (yes, you read that right), OpenAI, and Perplexity have each been reported by The Verge as being interested in acquiring Google Chrome should the need to sell become reality.</p>\n<p>The interest from these three in acquiring Chrome represents quite the convergence of business strategy and the result of the DOJ antitrust remedy. All three companies recognize Chrome’s immense value as a distribution channel and see its acquisition as a potential shortcut to challenging Google’s search dominance.</p>\n<p>But each company has its own unique motivations too:</p>\n<p>Yahoo is focused on boosting its search engine’s market share and sees Chrome as a means to that end.</p>\n<p>OpenAI is interested in enhancing its AI models’ capabilities through better access to search data, viewing Chrome as a tool to diversify data sources (outside of Bing).</p>\n<p>Perplexity aims to overcome distribution challenges posed by Google’s existing agreements and is cautious about the broader implications of such an acquisition.</p>\n<p>For its part, Google has strongly opposed the potential divestiture, arguing that it would be disruptive and damage the browser’s functionality, while also maintaining plans to appeal the decision.</p>\n<p>Sources:\n<a href=\"https://lnkd.in/eS4HC3QC\">lnkd.in/eS4HC3QC</a></p>\n<p><a href=\"https://lnkd.in/eWrH3cab\">lnkd.in/eWrH3cab</a></p>\n<p><a href=\"https://lnkd.in/eYXnJfue\">lnkd.in/eYXnJfue</a></p>\n<!-- raw HTML omitted -->\n",
+				"content_text": "No fewer than three companies: Yahoo (yes, you read that right), OpenAI, and Perplexity have each been reported by The Verge as being interested in acquiring Google Chrome should the need to sell become reality. \n\nThe interest from these three in acquiring Chrome represents quite the convergence of business strategy and the result of the DOJ antitrust remedy. All three companies recognize Chrome’s immense value as a distribution channel and see its acquisition as a potential shortcut to challenging Google’s search dominance. \n\nBut each company has its own unique motivations too:\n\nYahoo is focused on boosting its search engine’s market share and sees Chrome as a means to that end.\n\nOpenAI is interested in enhancing its AI models’ capabilities through better access to search data, viewing Chrome as a tool to diversify data sources (outside of Bing). \n\nPerplexity aims to overcome distribution challenges posed by Google’s existing agreements and is cautious about the broader implications of such an acquisition. \n\nFor its part, Google has strongly opposed the potential divestiture, arguing that it would be disruptive and damage the browser’s functionality, while also maintaining plans to appeal the decision. \n\nSources:\n[lnkd.in/eS4HC3QC](https://lnkd.in/eS4HC3QC)\n\n[lnkd.in/eWrH3cab](https://lnkd.in/eWrH3cab)\n\n[lnkd.in/eYXnJfue](https://lnkd.in/eYXnJfue)\n\n<img src=\"uploads/2025/062ad1ad24.png\" width=\"600\" height=\"600\" alt=\"\">\n",
+				"date_published": "2025-04-25T00:23:57-04:00",
+				"url": "https://alexanderbellgram.com/2025/04/24/chrome-covet.html"
+			},
+			{
+				"id": "http://alexanderbellgram.micro.blog/2025/04/22/i-think-macworld-s-macalope.html",
+				
+				"content_html": "<p>I think Macworld ‘s Macalope meant “slap MacOS on the <em>iPad</em> and call it a day”. But I’m not 100% sure the way it’s written. 🤷🏼‍♂️</p>\n<!-- raw HTML omitted -->\n",
+				"content_text": "I think Macworld ‘s Macalope meant “slap MacOS on the *iPad* and call it a day”. But I’m not 100% sure the way it’s written. 🤷🏼‍♂️\n\n<img src=\"uploads/2025/ae01309ff2.jpg\" width=\"380\" height=\"600\" alt=\"\">\n",
+				"date_published": "2025-04-22T09:23:57-04:00",
+				"url": "https://alexanderbellgram.com/2025/04/22/i-think-macworld-s-macalope.html"
+			},
+			{
+				"id": "http://alexanderbellgram.micro.blog/2025/04/21/tampa-bays-col-advantage-has.html",
+				
+				"content_html": "<p>Tampa Bay&rsquo;s COL <a href=\"https://www.axios.com/local/tampa-bay/2025/04/21/fewer-people-move-tampa-bay\">advantage</a> has largely evaporated. The in-migration trend took a hit in 2024, with 24k fewer movers than 2023. Rising insurance costs, hurricane fears, and RTO are all to blame. The area is losing its edge. But maybe at least the traffic will improve.</p>\n",
+				"content_text": "Tampa Bay's COL [advantage](https://www.axios.com/local/tampa-bay/2025/04/21/fewer-people-move-tampa-bay) has largely evaporated. The in-migration trend took a hit in 2024, with 24k fewer movers than 2023. Rising insurance costs, hurricane fears, and RTO are all to blame. The area is losing its edge. But maybe at least the traffic will improve.\r\n\r\n",
+				"date_published": "2025-04-21T19:35:08-04:00",
+				"url": "https://alexanderbellgram.com/2025/04/21/tampa-bays-col-advantage-has.html"
+			},
+			{
 				"id": "http://alexanderbellgram.micro.blog/2025/04/21/the-color-olo.html",
 				"title": "The color \"Olo\"",
 				"content_html": "<p>A top restaurant SaaS company <em>AND</em> a new color? Yes: Olo.</p>\n<p>As someone building software, I find this stuff pretty cool. And this is just a bonkers coincidence. This week&rsquo;s mind-blowing <a href=\"https://www.popsci.com/health/new-color-green/\">discovery</a> is that a team of scientists has enabled five people to see a color no human has ever seen before: a vivid, pure, almost electric blue-green dubbed “olo.”</p>\n<p>This is the result of a new system called the Oz Vision System, which uses ultraprecise, eye safe lasers(!) to stimulate a very specific set of photoreceptor cells in the retina without triggering their overlapping neighbors (which natural light can NOT do).</p>\n<p>&ldquo;Olo&rdquo; is more than just a pretty color. It’s proof that our brains can perceive colors outside the known visual spectrum if given the right stimulation. Test subjects couldn’t match it with any known color unless significant white light was added. It&rsquo;s basically a brand new color.</p>\n<p>I also love how &ldquo;olo&rdquo; the color is pretty close to Olo&rsquo;s own branding colors. Delicious. \n<!-- raw HTML omitted --></p>\n",
@@ -50,7 +90,7 @@
 				"id": "http://alexanderbellgram.micro.blog/2025/04/03/vibe-painting-hermes-messenger-of.html",
 				
 				"content_html": "<p>Vibe painting. Hermes, messenger of the gods. Oil on GPT 4o.</p>\n<!-- raw HTML omitted -->\n",
-				"content_text": "Vibe painting. Hermes, messenger of the gods. Oil on GPT 4o.\n\n<img src=\"https://alexanderbellgram.com/uploads/2025/chatgpt-image-mar-27-2025-09-47-34-am.png\" width=\"400\" height=\"600\" alt=\"\">\n",
+				"content_text": "Vibe painting. Hermes, messenger of the gods. Oil on GPT 4o.\n\n<img src=\"uploads/2025/chatgpt-image-mar-27-2025-09-47-34-am.png\" width=\"400\" height=\"600\" alt=\"\">\n",
 				"date_published": "2025-04-03T08:49:51-04:00",
 				"url": "https://alexanderbellgram.com/2025/04/03/vibe-painting-hermes-messenger-of.html"
 			},
@@ -58,7 +98,7 @@
 				"id": "http://alexanderbellgram.micro.blog/2025/04/02/new-location-services-privacy-setting.html",
 				
 				"content_html": "<p>New location services privacy setting to turn off in iOS 18.4. Toggled on by default.</p>\n<!-- raw HTML omitted -->\n",
-				"content_text": "New location services privacy setting to turn off in iOS 18.4. Toggled on by default. \n\n<img src=\"https://alexanderbellgram.com/uploads/2025/8796771329.jpg\" width=\"600\" height=\"540\" alt=\"\">\n",
+				"content_text": "New location services privacy setting to turn off in iOS 18.4. Toggled on by default. \n\n<img src=\"uploads/2025/8796771329.jpg\" width=\"600\" height=\"540\" alt=\"\">\n",
 				"date_published": "2025-04-02T08:34:52-04:00",
 				"url": "https://alexanderbellgram.com/2025/04/02/new-location-services-privacy-setting.html"
 			},
@@ -74,7 +114,7 @@
 				"id": "http://alexanderbellgram.micro.blog/2025/04/01/ok-good-so-no-more.html",
 				
 				"content_html": "<p>OK, good. So no more melting GPUs right?\n<!-- raw HTML omitted --></p>\n",
-				"content_text": "OK, good. So no more melting GPUs right?\r\n<img src=\"https://alexanderbellgram.com/uploads/2025/6d62610ecc.png\" alt=\"\">\n",
+				"content_text": "OK, good. So no more melting GPUs right?\r\n<img src=\"uploads/2025/6d62610ecc.png\" alt=\"\">\n",
 				"date_published": "2025-04-01T09:52:27-04:00",
 				"url": "https://alexanderbellgram.com/2025/04/01/ok-good-so-no-more.html"
 			},

@@ -7,6 +7,14 @@
 	"items": [
 		
 			{
+				"id": "http://alexanderbellgram.micro.blog/2025/06/18/genai-application-engineers.html",
+				"title": "GenAI Application Engineers",
+				"content_html": "<p>Andrew Ng over at DeepLearning.ai has a quick <a href=\"https://www.deeplearning.ai/the-batch/issue-305/\">rundown</a> of what businesses will be looking for in software engineers. He&rsquo;s calling them &ldquo;GenAI Application Engineers&rdquo; and they have these three key skills:</p>\n<p>1️⃣ Deep familiarity with a broad ecosystem of AI tools.\n2️⃣ Proficiency in AI-assisted coding (e.g., Copilot, Cursor, Claude Code).\n3️⃣ Strong product/design instincts to iterate on prototypes quickly.</p>\n<p>I&rsquo;d just add that part of the product and design instincts will also include the engineer&rsquo;s ability to orchestrate AI tools / agents to build and iterate on said product and design. It&rsquo;s almost as if engineers will slowly take on the role EMs and be in charge of managing their own little team of agents. I find that pretty cool and interesting.</p>\n",
+				"content_text": "Andrew Ng over at DeepLearning.ai has a quick [rundown](https://www.deeplearning.ai/the-batch/issue-305/) of what businesses will be looking for in software engineers. He's calling them \"GenAI Application Engineers\" and they have these three key skills:\r\n\r\n1️⃣ Deep familiarity with a broad ecosystem of AI tools.\r\n2️⃣ Proficiency in AI-assisted coding (e.g., Copilot, Cursor, Claude Code).\r\n3️⃣ Strong product/design instincts to iterate on prototypes quickly.\r\n\r\nI'd just add that part of the product and design instincts will also include the engineer's ability to orchestrate AI tools / agents to build and iterate on said product and design. It's almost as if engineers will slowly take on the role EMs and be in charge of managing their own little team of agents. I find that pretty cool and interesting.\n",
+				"date_published": "2025-06-18T12:29:52-04:00",
+				"url": "https://route12b.net/2025/06/18/genai-application-engineers.html"
+			},
+			{
 				"id": "http://alexanderbellgram.micro.blog/2025/06/12/behold-the-legacy-of-saas.html",
 				
 				"content_html": "<p>Behold, the legacy of SaaS\n<!-- raw HTML omitted --></p>\n",

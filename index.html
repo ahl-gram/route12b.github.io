@@ -24,8 +24,41 @@
 	
 	  <div class="h-entry">
 		
+			<h1><a href="https://route12b.net/2026/04/03/some-interesting-things-i-discovered.html">Some interesting things I discovered with that source code leak.</a></h1>
+		
 
-		<a href="https://route12b.net/2026/02/02/enjoy-this-very-festive-groundhog.html" class="u-url"><time class="dt-published" datetime="2026-02-02 07:12:41 -0500">Feb 2, 2026</time></a>
+		<a href="https://route12b.net/2026/04/03/some-interesting-things-i-discovered.html" class="u-url"><time class="dt-published" datetime="2026-04-03 13:10:22 -0400">Apr 3, 2026</time></a>
+
+		<div class="e-content">
+			 <p>It&rsquo;s a React app but for your terminal.
+The whole UI is built with React and rendered in your terminal instead of a browser. It has its own layout engine, screen buffering to prevent flickering, and memory pooling for performance. There&rsquo;s about 2,000 TypeScript files just to show you text.</p>
+<p>The system prompt is 50KB.
+Every tool description, behavioral rule, and context injection gets put together dynamically based on your model and settings. The file that builds it is one of the largest in the codebase.</p>
+<p>Several distinct bash security checks.
+Before your shell command runs, it gets sliced and diced in order to avoid shell specific attacks. It catches things users might not be aware of: invisible unicode characters disguised as spaces, tricks that take advantage of how the shell parses quotes, and ways to sneak commands inside other commands.</p>
+<p>It starts working before you say &ldquo;go.&rdquo;
+The bot begins generating the next response before you&rsquo;ve confirmed the current one. It pre caches file writes before all info is in hand, but throws the work away if the conversation goes in a different direction. It&rsquo;s optimistic, betting it already knows what happens next. IMHO, this might explain why it sometimes seems overly eager to do a task before you&rsquo;ve even given it further instructions.</p>
+<p>There&rsquo;s a swear jar.
+A specific system exists that flags certain obscenities as &ldquo;negative&rdquo;, which then redirects the bot&rsquo;s behavior based on how upset the user might be.</p>
+<p>There&rsquo;s a hidden &ldquo;buddy&rdquo; system.
+That cute terminal Tamagotchi is a 45KB companion sprite component living in the codebase. It has reactions, you can pet it, and it has its own notification system. I love it.</p>
+<p>It can run as a full agent swarm.
+Behind a feature flag, the bot can act as a boss that spawns worker agents, each with a restricted set of tools and shared temp storage. The boss&rsquo;s prompt explicitly says &ldquo;Never thank or acknowledge workers.&rdquo; To save on tokens, I guess?</p>
+<p>Startup is optimized.
+Checkpoints track millisecond level boot time. Lookups and checks fire simultaneously instead of one at a time. They saved roughly 200ms just by reordering when background processes kick off.</p>
+<p>The remote version shreds its own credentials.
+If you&rsquo;re running in a cloud container, the session token is read from disk into memory, then the file is immediately deleted. The process also tells the OS to block any other process from reading its memory.</p>
+<p>There are wizard roleplay comments in the production code.
+The rules for how the bot manages its &ldquo;thinking&rdquo; blocks are documented in the source with actual wizard character commentary. Yes, this is shipped to users under the hood.</p>
+<p>𝑫𝒊𝒔𝒄𝒍𝒂𝒊𝒎𝒆𝒓: 𝑰 𝒖𝒔𝒆𝒅 𝒕𝒉𝒆 𝒔𝒂𝒎𝒆 𝒃𝒐𝒕 𝒕𝒐 𝒉𝒆𝒍𝒑 𝒎𝒆 𝒘𝒓𝒊𝒕𝒆 𝒕𝒉𝒊𝒔. 𝑪𝒓𝒆𝒅𝒊𝒕 𝒘𝒉𝒆𝒓𝒆 𝒄𝒓𝒆𝒅𝒊𝒕 𝒊𝒔 𝒅𝒖𝒆 𝒂𝒏𝒅 𝒂𝒍𝒍 𝒕𝒉𝒂𝒕.</p>
+
+		</div>
+	  </div>
+	
+	  <div class="h-entry">
+		
+
+		<a href="https://route12b.net/2026/02/02/enjoy-this-very-festive-groundhog.html" class="u-url"><time class="dt-published" datetime="2026-02-02 08:12:41 -0400">Feb 2, 2026</time></a>
 
 		<div class="e-content">
 			 <p>Enjoy this very festive Groundhog Day to those who celebrate. And then let’s do it again tomorrow.</p>
@@ -37,7 +70,7 @@
 	  <div class="h-entry">
 		
 
-		<a href="https://route12b.net/2026/01/23/claude-code-it-appears-the.html" class="u-url"><time class="dt-published" datetime="2026-01-23 08:56:36 -0500">Jan 23, 2026</time></a>
+		<a href="https://route12b.net/2026/01/23/claude-code-it-appears-the.html" class="u-url"><time class="dt-published" datetime="2026-01-23 09:56:36 -0400">Jan 23, 2026</time></a>
 
 		<div class="e-content">
 			 <p>Claude Code: “It appears the sofa won’t fit through this door. I’ll reinstall the door with bigger dimensions so that the sofa can fit. Continue?”</p>
@@ -51,7 +84,7 @@
 	  <div class="h-entry">
 		
 
-		<a href="https://route12b.net/2025/12/16/my-usage-of-social-media.html" class="u-url"><time class="dt-published" datetime="2025-12-16 07:11:11 -0500">Dec 16, 2025</time></a>
+		<a href="https://route12b.net/2025/12/16/my-usage-of-social-media.html" class="u-url"><time class="dt-published" datetime="2025-12-16 08:11:11 -0400">Dec 16, 2025</time></a>
 
 		<div class="e-content">
 			 <p>My usage of social media has basically taken away my ability to read a book. My attention span is too short now. Sad. My fault of course, but sad nonetheless.</p>
@@ -62,7 +95,7 @@
 	  <div class="h-entry">
 		
 
-		<a href="https://route12b.net/2025/11/25/rabbits-are-interesting-pets-you.html" class="u-url"><time class="dt-published" datetime="2025-11-25 08:06:54 -0500">Nov 25, 2025</time></a>
+		<a href="https://route12b.net/2025/11/25/rabbits-are-interesting-pets-you.html" class="u-url"><time class="dt-published" datetime="2025-11-25 09:06:54 -0400">Nov 25, 2025</time></a>
 
 		<div class="e-content">
 			 <p>Rabbits are interesting pets. You feed them long, skinny strands of hay and they poop out little balls of (mostly) hay. They&rsquo;re machines that change the shape of hay.</p>
@@ -73,7 +106,7 @@
 	  <div class="h-entry">
 		
 
-		<a href="https://route12b.net/2025/11/22/light-mode-and-dark-mode.html" class="u-url"><time class="dt-published" datetime="2025-11-22 16:52:15 -0500">Nov 22, 2025</time></a>
+		<a href="https://route12b.net/2025/11/22/light-mode-and-dark-mode.html" class="u-url"><time class="dt-published" datetime="2025-11-22 17:52:15 -0400">Nov 22, 2025</time></a>
 
 		<div class="e-content">
 			 <p>Light mode and dark mode.</p>
@@ -85,7 +118,7 @@
 	  <div class="h-entry">
 		
 
-		<a href="https://route12b.net/2025/11/20/god-to-me-ok-these.html" class="u-url"><time class="dt-published" datetime="2025-11-20 10:06:13 -0500">Nov 20, 2025</time></a>
+		<a href="https://route12b.net/2025/11/20/god-to-me-ok-these.html" class="u-url"><time class="dt-published" datetime="2025-11-20 11:06:13 -0400">Nov 20, 2025</time></a>
 
 		<div class="e-content">
 			 <p>God to me: ok, these are your eyeballs. They allow you to sense the environment around you. Important for reading and learning too. But eventually, like all organs, they’ll start to wear out. So take good care of them.
@@ -98,7 +131,7 @@ God: for you, around 3rd grade. Good luck!</p>
 	  <div class="h-entry">
 		
 
-		<a href="https://route12b.net/2025/11/19/bro-you-should-try-the.html" class="u-url"><time class="dt-published" datetime="2025-11-19 19:57:26 -0500">Nov 19, 2025</time></a>
+		<a href="https://route12b.net/2025/11/19/bro-you-should-try-the.html" class="u-url"><time class="dt-published" datetime="2025-11-19 20:57:26 -0400">Nov 19, 2025</time></a>
 
 		<div class="e-content">
 			 <p>Bro you should try the new agentic IDE Antigravity. You should use Cursor, bro. Bro, try Claude Code, it&rsquo;s way better than any of the others. Bro just use Warp. It&rsquo;s better than Windsurf bro. Use VS Code with these 50 plugins, bro. Bro, just one more IDE. Bro.</p>
@@ -109,7 +142,7 @@ God: for you, around 3rd grade. Good luck!</p>
 	  <div class="h-entry">
 		
 
-		<a href="https://route12b.net/2025/11/13/anyone-else-started-reading-a.html" class="u-url"><time class="dt-published" datetime="2025-11-13 09:30:08 -0500">Nov 13, 2025</time></a>
+		<a href="https://route12b.net/2025/11/13/anyone-else-started-reading-a.html" class="u-url"><time class="dt-published" datetime="2025-11-13 10:30:08 -0400">Nov 13, 2025</time></a>
 
 		<div class="e-content">
 			 <p>Anyone else started reading a blog that’s been updated regularly, and then suddenly: nothing. No goodbye post. Just the last: “here’s ten ways to fold socks” post and that’s it. Then years go by. I genuinely become concerned for the author of that blog. What happened to them to go dark like that?</p>
@@ -120,7 +153,7 @@ God: for you, around 3rd grade. Good luck!</p>
 	  <div class="h-entry">
 		
 
-		<a href="https://route12b.net/2025/11/06/movie-idea-the-priest-who.html" class="u-url"><time class="dt-published" datetime="2025-11-06 02:14:25 -0500">Nov 6, 2025</time></a>
+		<a href="https://route12b.net/2025/11/06/movie-idea-the-priest-who.html" class="u-url"><time class="dt-published" datetime="2025-11-06 03:14:25 -0400">Nov 6, 2025</time></a>
 
 		<div class="e-content">
 			 <p>Movie idea: the priest who spoke to Salieri in “Amadeus” is so moved by his story that he begins incorporating the appreciation of music into his faith and teachings.</p>
@@ -131,7 +164,7 @@ God: for you, around 3rd grade. Good luck!</p>
 	  <div class="h-entry">
 		
 
-		<a href="https://route12b.net/2025/10/31/herbie-hancocks-chamelion-is-a.html" class="u-url"><time class="dt-published" datetime="2025-10-31 06:09:05 -0500">Oct 31, 2025</time></a>
+		<a href="https://route12b.net/2025/10/31/herbie-hancocks-chamelion-is-a.html" class="u-url"><time class="dt-published" datetime="2025-10-31 07:09:05 -0400">Oct 31, 2025</time></a>
 
 		<div class="e-content">
 			 <p>Herbie Hancock’s Chamelion is a classic. No argument there. But my all time HH fave has got to be Hang Up Your Hang Ups.</p>
@@ -142,7 +175,7 @@ God: for you, around 3rd grade. Good luck!</p>
 	  <div class="h-entry">
 		
 
-		<a href="https://route12b.net/2025/10/31/everyones-looking-forward-to-halloweeen.html" class="u-url"><time class="dt-published" datetime="2025-10-31 06:08:39 -0500">Oct 31, 2025</time></a>
+		<a href="https://route12b.net/2025/10/31/everyones-looking-forward-to-halloweeen.html" class="u-url"><time class="dt-published" datetime="2025-10-31 07:08:39 -0400">Oct 31, 2025</time></a>
 
 		<div class="e-content">
 			 <p>Everyone’s looking forward to Halloweeen but I just want to get to that extra hour of sleep two days later.</p>
@@ -153,7 +186,7 @@ God: for you, around 3rd grade. Good luck!</p>
 	  <div class="h-entry">
 		
 
-		<a href="https://route12b.net/2025/10/29/to-everyone-in-their-s.html" class="u-url"><time class="dt-published" datetime="2025-10-29 17:59:54 -0500">Oct 29, 2025</time></a>
+		<a href="https://route12b.net/2025/10/29/to-everyone-in-their-s.html" class="u-url"><time class="dt-published" datetime="2025-10-29 18:59:54 -0400">Oct 29, 2025</time></a>
 
 		<div class="e-content">
 			 <p>To everyone in their 20s and 30s, and I cannot emphasize this enough: start investing in your retirement plan NOW if you haven’t already. Your 50+ year old self will thank you.</p>
@@ -166,7 +199,7 @@ God: for you, around 3rd grade. Good luck!</p>
 	  <div class="h-entry">
 		
 
-		<a href="https://route12b.net/2025/10/22/allow-me-to-share-a.html" class="u-url"><time class="dt-published" datetime="2025-10-21 23:13:31 -0500">Oct 21, 2025</time></a>
+		<a href="https://route12b.net/2025/10/22/allow-me-to-share-a.html" class="u-url"><time class="dt-published" datetime="2025-10-22 00:13:31 -0400">Oct 22, 2025</time></a>
 
 		<div class="e-content">
 			 <p>Allow me to share a few pics of our rabbit. This is our bunny Ollie. He’s a rescue. English spot mix.</p>
@@ -179,7 +212,7 @@ God: for you, around 3rd grade. Good luck!</p>
 	  <div class="h-entry">
 		
 
-		<a href="https://route12b.net/2025/10/21/when-i-buy-a-new.html" class="u-url"><time class="dt-published" datetime="2025-10-21 22:27:15 -0500">Oct 21, 2025</time></a>
+		<a href="https://route12b.net/2025/10/21/when-i-buy-a-new.html" class="u-url"><time class="dt-published" datetime="2025-10-21 23:27:15 -0400">Oct 21, 2025</time></a>
 
 		<div class="e-content">
 			 <p>When I buy a new laptop, it’s always a MacBook Pro. I might never compile code on it or run sophisticated music or video editing software on it. Heck, I’ll probably only ever browse the web, check email, and pay bills with it.</p>
@@ -192,7 +225,7 @@ God: for you, around 3rd grade. Good luck!</p>
 	  <div class="h-entry">
 		
 
-		<a href="https://route12b.net/2025/10/20/apparently-due-to-the-aws.html" class="u-url"><time class="dt-published" datetime="2025-10-20 22:10:57 -0500">Oct 20, 2025</time></a>
+		<a href="https://route12b.net/2025/10/20/apparently-due-to-the-aws.html" class="u-url"><time class="dt-published" datetime="2025-10-20 23:10:57 -0400">Oct 20, 2025</time></a>
 
 		<div class="e-content">
 			 <p>Apparently, due to the AWS outage, someone was able to rob the Louvre. They should not have chosen US-EAST-1.</p>
@@ -204,7 +237,7 @@ God: for you, around 3rd grade. Good luck!</p>
 	  <div class="h-entry">
 		
 
-		<a href="https://route12b.net/2025/07/04/happy-th-of-july-yall.html" class="u-url"><time class="dt-published" datetime="2025-07-04 08:07:26 -0500">Jul 4, 2025</time></a>
+		<a href="https://route12b.net/2025/07/04/happy-th-of-july-yall.html" class="u-url"><time class="dt-published" datetime="2025-07-04 09:07:26 -0400">Jul 4, 2025</time></a>
 
 		<div class="e-content">
 			 <p>Happy 4th of July, y&rsquo;all! 🇺🇸</p>
@@ -217,7 +250,7 @@ God: for you, around 3rd grade. Good luck!</p>
 			<h1><a href="https://route12b.net/2025/06/18/genai-application-engineers.html">GenAI Application Engineers</a></h1>
 		
 
-		<a href="https://route12b.net/2025/06/18/genai-application-engineers.html" class="u-url"><time class="dt-published" datetime="2025-06-18 11:29:52 -0500">Jun 18, 2025</time></a>
+		<a href="https://route12b.net/2025/06/18/genai-application-engineers.html" class="u-url"><time class="dt-published" datetime="2025-06-18 12:29:52 -0400">Jun 18, 2025</time></a>
 
 		<div class="e-content">
 			 <p>Andrew Ng over at DeepLearning.ai has a quick <a href="https://www.deeplearning.ai/the-batch/issue-305/">rundown</a> of what businesses will be looking for in software engineers. He&rsquo;s calling them &ldquo;GenAI Application Engineers&rdquo; and they have these three key skills:</p>
@@ -232,7 +265,7 @@ God: for you, around 3rd grade. Good luck!</p>
 	  <div class="h-entry">
 		
 
-		<a href="https://route12b.net/2025/06/12/behold-the-legacy-of-saas.html" class="u-url"><time class="dt-published" datetime="2025-06-12 14:26:21 -0500">Jun 12, 2025</time></a>
+		<a href="https://route12b.net/2025/06/12/behold-the-legacy-of-saas.html" class="u-url"><time class="dt-published" datetime="2025-06-12 15:26:21 -0400">Jun 12, 2025</time></a>
 
 		<div class="e-content">
 			 <p>Behold, the legacy of SaaS
@@ -244,7 +277,7 @@ God: for you, around 3rd grade. Good luck!</p>
 	  <div class="h-entry">
 		
 
-		<a href="https://route12b.net/2025/06/04/this-is-why-apple-intelligence.html" class="u-url"><time class="dt-published" datetime="2025-06-04 10:26:50 -0500">Jun 4, 2025</time></a>
+		<a href="https://route12b.net/2025/06/04/this-is-why-apple-intelligence.html" class="u-url"><time class="dt-published" datetime="2025-06-04 11:26:50 -0400">Jun 4, 2025</time></a>
 
 		<div class="e-content">
 			 <p>This is why Apple Intelligence sucks.</p>
@@ -256,7 +289,7 @@ God: for you, around 3rd grade. Good luck!</p>
 	  <div class="h-entry">
 		
 
-		<a href="https://route12b.net/2025/05/29/from-now-on-my-age.html" class="u-url"><time class="dt-published" datetime="2025-05-29 18:15:20 -0500">May 29, 2025</time></a>
+		<a href="https://route12b.net/2025/05/29/from-now-on-my-age.html" class="u-url"><time class="dt-published" datetime="2025-05-29 19:15:20 -0400">May 29, 2025</time></a>
 
 		<div class="e-content">
 			 <p>From now on, my age will be year-based. I am now 25.</p>
@@ -269,7 +302,7 @@ God: for you, around 3rd grade. Good luck!</p>
 			<h1><a href="https://route12b.net/2025/05/28/ai-just-made-a-minute.html">AI Just Made a 3-Minute Movie</a></h1>
 		
 
-		<a href="https://route12b.net/2025/05/28/ai-just-made-a-minute.html" class="u-url"><time class="dt-published" datetime="2025-05-28 18:59:53 -0500">May 28, 2025</time></a>
+		<a href="https://route12b.net/2025/05/28/ai-just-made-a-minute.html" class="u-url"><time class="dt-published" datetime="2025-05-28 19:59:53 -0400">May 28, 2025</time></a>
 
 		<div class="e-content">
 			 <p>Joanna Stern over at The Wall Street Journal has unveiled another mind-blowing <a href="https://www.wsj.com/tech/ai/ai-film-google-veo-runway-3918ae28">development</a>: with the help of WSJ staff, she created a three-minute movie in which nearly every scene, shot, and line of dialogue was generated using AI tools: specifically, Google Veo 2 and 3, ElevenLabs, and Runway.</p>
@@ -283,7 +316,7 @@ God: for you, around 3rd grade. Good luck!</p>
 	  <div class="h-entry">
 		
 
-		<a href="https://route12b.net/2025/05/23/last-night-i-did-a.html" class="u-url"><time class="dt-published" datetime="2025-05-23 07:25:46 -0500">May 23, 2025</time></a>
+		<a href="https://route12b.net/2025/05/23/last-night-i-did-a.html" class="u-url"><time class="dt-published" datetime="2025-05-23 08:25:46 -0400">May 23, 2025</time></a>
 
 		<div class="e-content">
 			 <p>Last night I did a quick vide-coding session in Cursor for an iOS app that does currency exchange conversions. One of the key requirements in the PRD was to store the API key securely. First round of coding put the key in plain text right in the code.</p>
@@ -297,7 +330,7 @@ God: for you, around 3rd grade. Good luck!</p>
 			<h1><a href="https://route12b.net/2025/05/21/things-are-happening.html">Things are happening</a></h1>
 		
 
-		<a href="https://route12b.net/2025/05/21/things-are-happening.html" class="u-url"><time class="dt-published" datetime="2025-05-21 18:54:35 -0500">May 21, 2025</time></a>
+		<a href="https://route12b.net/2025/05/21/things-are-happening.html" class="u-url"><time class="dt-published" datetime="2025-05-21 19:54:35 -0400">May 21, 2025</time></a>
 
 		<div class="e-content">
 			 <p>Consider this: the CEO of an influential company being openly and brutally honest to his employees about the effects of AI on their jobs.</p>
@@ -321,7 +354,7 @@ God: for you, around 3rd grade. Good luck!</p>
 			<h1><a href="https://route12b.net/2025/05/20/ai-agent-tutorials.html">AI Agent &#34;Tutorials&#34;</a></h1>
 		
 
-		<a href="https://route12b.net/2025/05/20/ai-agent-tutorials.html" class="u-url"><time class="dt-published" datetime="2025-05-20 10:42:10 -0500">May 20, 2025</time></a>
+		<a href="https://route12b.net/2025/05/20/ai-agent-tutorials.html" class="u-url"><time class="dt-published" datetime="2025-05-20 11:42:10 -0400">May 20, 2025</time></a>
 
 		<div class="e-content">
 			 <p>I&rsquo;ve noticed a concerning trend: many &ldquo;educational&rdquo; videos and articles seem more focused on riding the AI hype wave than providing actual value. The creator&rsquo;s understanding often seems surface-level at best. Especially on sites like YouTube, the videos seem more like &ldquo;I&rsquo;m making this video to demonstrate my barely-there understanding of this stuff&rdquo; and less like &ldquo;here&rsquo;s a great step-by-step tutorial from someone who&rsquo;s mastered it&rdquo;.</p>
@@ -345,7 +378,7 @@ God: for you, around 3rd grade. Good luck!</p>
 			<h1><a href="https://route12b.net/2025/05/18/homebrew-with-a-twist.html">Homebrew with a Twist</a></h1>
 		
 
-		<a href="https://route12b.net/2025/05/18/homebrew-with-a-twist.html" class="u-url"><time class="dt-published" datetime="2025-05-18 10:13:22 -0500">May 18, 2025</time></a>
+		<a href="https://route12b.net/2025/05/18/homebrew-with-a-twist.html" class="u-url"><time class="dt-published" datetime="2025-05-18 11:13:22 -0400">May 18, 2025</time></a>
 
 		<div class="e-content">
 			 <p>Want a super simple and easy way to keep your apps and tooling up-to-date on your Mac?</p>
@@ -366,7 +399,7 @@ God: for you, around 3rd grade. Good luck!</p>
 			<h1><a href="https://route12b.net/2025/05/14/sam-and-satya.html">Sam and Satya</a></h1>
 		
 
-		<a href="https://route12b.net/2025/05/14/sam-and-satya.html" class="u-url"><time class="dt-published" datetime="2025-05-14 07:56:20 -0500">May 14, 2025</time></a>
+		<a href="https://route12b.net/2025/05/14/sam-and-satya.html" class="u-url"><time class="dt-published" datetime="2025-05-14 08:56:20 -0400">May 14, 2025</time></a>
 
 		<div class="e-content">
 			 <p>Two interesting news morsels coming out of Redmond.</p>
@@ -392,7 +425,7 @@ God: for you, around 3rd grade. Good luck!</p>
 			<h1><a href="https://route12b.net/2025/05/13/revisiting-my-vibe-coding-prediction.html">Revisiting my Vibe Coding Prediction.</a></h1>
 		
 
-		<a href="https://route12b.net/2025/05/13/revisiting-my-vibe-coding-prediction.html" class="u-url"><time class="dt-published" datetime="2025-05-13 19:14:12 -0500">May 13, 2025</time></a>
+		<a href="https://route12b.net/2025/05/13/revisiting-my-vibe-coding-prediction.html" class="u-url"><time class="dt-published" datetime="2025-05-13 20:14:12 -0400">May 13, 2025</time></a>
 
 		<div class="e-content">
 			 <p>About a year ago, I made a prediction: that the rise of LLMs like ChatGPT would lead to fewer programming languages over time. If AI agents can translate high-level instructions into code, then language complexity becomes an implementation detail rather than a developer concern.</p>
@@ -408,7 +441,7 @@ God: for you, around 3rd grade. Good luck!</p>
 			<h1><a href="https://route12b.net/2025/05/12/embrace-the-suck.html">Embrace the Suck</a></h1>
 		
 
-		<a href="https://route12b.net/2025/05/12/embrace-the-suck.html" class="u-url"><time class="dt-published" datetime="2025-05-12 17:47:37 -0500">May 12, 2025</time></a>
+		<a href="https://route12b.net/2025/05/12/embrace-the-suck.html" class="u-url"><time class="dt-published" datetime="2025-05-12 18:47:37 -0400">May 12, 2025</time></a>
 
 		<div class="e-content">
 			 <p>On call duty doesn’t have to be a burden. It can be quite the career accelerator in software engineering. Here&rsquo;s 4 reasons why y’all might want to embrace those midnight alerts.</p>
@@ -429,7 +462,7 @@ God: for you, around 3rd grade. Good luck!</p>
 	  <div class="h-entry">
 		
 
-		<a href="https://route12b.net/2025/05/11/my-parents-house-was-about.html" class="u-url"><time class="dt-published" datetime="2025-05-11 07:38:23 -0500">May 11, 2025</time></a>
+		<a href="https://route12b.net/2025/05/11/my-parents-house-was-about.html" class="u-url"><time class="dt-published" datetime="2025-05-11 08:38:23 -0400">May 11, 2025</time></a>
 
 		<div class="e-content">
 			 <p>My parent&rsquo;s house was about a 5 hour drive away from where I went to college. And every semester, my mom would make that drive, round-trip in one day, so roughly 10 hours of driving. Just so she could make sure I got to school or home safely. Thanks, mom. Happy Mother&rsquo;s Day.</p>
@@ -442,7 +475,7 @@ God: for you, around 3rd grade. Good luck!</p>
 			<h1><a href="https://route12b.net/2025/05/07/my-llm-ate-my-homework.html">My LLM Ate My Homework</a></h1>
 		
 
-		<a href="https://route12b.net/2025/05/07/my-llm-ate-my-homework.html" class="u-url"><time class="dt-published" datetime="2025-05-07 19:51:54 -0500">May 7, 2025</time></a>
+		<a href="https://route12b.net/2025/05/07/my-llm-ate-my-homework.html" class="u-url"><time class="dt-published" datetime="2025-05-07 20:51:54 -0400">May 7, 2025</time></a>
 
 		<div class="e-content">
 			 <p>A college education is meant to shape how we think, not just what we know. At least, that’s what we’re told. The act of writing essays and solving math problems aren’t meant to be busywork. They’re exercises in critical thinking, the mental equivalent of weightlifting.</p>
@@ -462,7 +495,7 @@ God: for you, around 3rd grade. Good luck!</p>
 	  <div class="h-entry">
 		
 
-		<a href="https://route12b.net/2025/05/06/openai-buys-windsurf-openai-currently.html" class="u-url"><time class="dt-published" datetime="2025-05-06 18:27:36 -0500">May 6, 2025</time></a>
+		<a href="https://route12b.net/2025/05/06/openai-buys-windsurf-openai-currently.html" class="u-url"><time class="dt-published" datetime="2025-05-06 19:27:36 -0400">May 6, 2025</time></a>
 
 		<div class="e-content">
 			 <p>OpenAI buys Windsurf.</p>
@@ -477,7 +510,7 @@ God: for you, around 3rd grade. Good luck!</p>
 			<h1><a href="https://route12b.net/2025/05/06/notebooklm-app.html">NotebookLM App</a></h1>
 		
 
-		<a href="https://route12b.net/2025/05/06/notebooklm-app.html" class="u-url"><time class="dt-published" datetime="2025-05-06 07:18:35 -0500">May 6, 2025</time></a>
+		<a href="https://route12b.net/2025/05/06/notebooklm-app.html" class="u-url"><time class="dt-published" datetime="2025-05-06 08:18:35 -0400">May 6, 2025</time></a>
 
 		<div class="e-content">
 			 <p>Just announced: Google&rsquo;s NotebookLM app is coming “May 20th on iOS and Android.” It&rsquo;s being touted as one of their best AI tools yet, offering users tons of flexibility.</p>
@@ -497,7 +530,7 @@ God: for you, around 3rd grade. Good luck!</p>
 			<h1><a href="https://route12b.net/2025/05/05/the-openai-mafia.html">The OpenAI Mafia</a></h1>
 		
 
-		<a href="https://route12b.net/2025/05/05/the-openai-mafia.html" class="u-url"><time class="dt-published" datetime="2025-05-05 07:24:22 -0500">May 5, 2025</time></a>
+		<a href="https://route12b.net/2025/05/05/the-openai-mafia.html" class="u-url"><time class="dt-published" datetime="2025-05-05 08:24:22 -0400">May 5, 2025</time></a>
 
 		<div class="e-content">
 			 <p>Recently, I was thinking about all the new AI startups that are in the news pretty much constantly. Many are founded by Open AI alumni. It turns out OpenAI isn’t just a leading AI company. It’s also become Silicon Valley’s newest “mafia,” much like the OG PayPal network. Over the past few years, about 70 alumni have ventured out to launch 30+ startups, covering AI safety, search, robotics, edtech, climate tech, enterprise tools&hellip; You name it.</p>
@@ -523,7 +556,7 @@ God: for you, around 3rd grade. Good luck!</p>
 	  <div class="h-entry">
 		
 
-		<a href="https://route12b.net/2025/05/03/new-pixar-movie-on-the.html" class="u-url"><time class="dt-published" datetime="2025-05-03 07:28:23 -0500">May 3, 2025</time></a>
+		<a href="https://route12b.net/2025/05/03/new-pixar-movie-on-the.html" class="u-url"><time class="dt-published" datetime="2025-05-03 08:28:23 -0400">May 3, 2025</time></a>
 
 		<div class="e-content">
 			 <p>New Pixar movie on the way: Titled “Mysterious and Important”. 4 friends go on an adventure.</p>
@@ -537,7 +570,7 @@ God: for you, around 3rd grade. Good luck!</p>
 			<h1><a href="https://route12b.net/2025/05/02/more-on-the-apple-v.html">More on the Apple v Epic Ruling</a></h1>
 		
 
-		<a href="https://route12b.net/2025/05/02/more-on-the-apple-v.html" class="u-url"><time class="dt-published" datetime="2025-05-02 08:21:29 -0500">May 2, 2025</time></a>
+		<a href="https://route12b.net/2025/05/02/more-on-the-apple-v.html" class="u-url"><time class="dt-published" datetime="2025-05-02 09:21:29 -0400">May 2, 2025</time></a>
 
 		<div class="e-content">
 			 <p>Alot has already been said about this.</p>
@@ -558,7 +591,7 @@ God: for you, around 3rd grade. Good luck!</p>
 	  <div class="h-entry">
 		
 
-		<a href="https://route12b.net/2025/05/01/apple-and-tim-cook-done.html" class="u-url"><time class="dt-published" datetime="2025-05-01 07:30:36 -0500">May 1, 2025</time></a>
+		<a href="https://route12b.net/2025/05/01/apple-and-tim-cook-done.html" class="u-url"><time class="dt-published" datetime="2025-05-01 08:30:36 -0400">May 1, 2025</time></a>
 
 		<div class="e-content">
 			 <p>Apple (and Tim Cook) done <a href="https://daringfireball.net/2025/04/gonzales_rogers_apple_app_store_ruling">messed up</a>.</p>
@@ -572,7 +605,7 @@ God: for you, around 3rd grade. Good luck!</p>
 			<h1><a href="https://route12b.net/2025/04/30/everyones-a-spy-now.html">Everyone’s a Spy Now</a></h1>
 		
 
-		<a href="https://route12b.net/2025/04/30/everyones-a-spy-now.html" class="u-url"><time class="dt-published" datetime="2025-04-30 21:03:41 -0500">Apr 30, 2025</time></a>
+		<a href="https://route12b.net/2025/04/30/everyones-a-spy-now.html" class="u-url"><time class="dt-published" datetime="2025-04-30 22:03:41 -0400">Apr 30, 2025</time></a>
 
 		<div class="e-content">
 			 <p>Yet again from the “life imitates Black Mirror” files is a <a href="https://www.wsj.com/tech/personal-tech/ai-personal-assistant-wearable-tech-impressions-28156b57">report</a> from Joanna Stern at WSJ highlighting wearable AI devices. The Bee Pioneer captures conversations to provide summaries and reminders. The Limitless Pendant records audio to offer behavioral feedback, aiming to improve personal interactions. Finally, Plaud Note transcribes and summarizes recordings using AI, assisting with tasks like meeting notes and to-do lists. These devices record everything you say, all the time, around the clock.</p>
@@ -589,7 +622,7 @@ God: for you, around 3rd grade. Good luck!</p>
 	  <div class="h-entry">
 		
 
-		<a href="https://route12b.net/2025/04/29/bluesky-the-decentralized-social-network.html" class="u-url"><time class="dt-published" datetime="2025-04-29 11:29:12 -0500">Apr 29, 2025</time></a>
+		<a href="https://route12b.net/2025/04/29/bluesky-the-decentralized-social-network.html" class="u-url"><time class="dt-published" datetime="2025-04-29 12:29:12 -0400">Apr 29, 2025</time></a>
 
 		<div class="e-content">
 			 <p>Bluesky, the &ldquo;decentralized&rdquo; social network built on AT Protocol, <a href="https://techcrunch.com/2025/04/24/wait-how-did-a-decentralized-service-like-bluesky-go-down/">went down</a> for an hour despite being designed specifically not to. The outage was due to &ldquo;major PDS networking problems&rdquo;. These are personal data servers that Bluesky itself still largely controls. Folks on Mastodon were quite amused.</p>
@@ -602,7 +635,7 @@ God: for you, around 3rd grade. Good luck!</p>
 			<h1><a href="https://route12b.net/2025/04/29/international-bornagain-machines.html">International Born-again Machines</a></h1>
 		
 
-		<a href="https://route12b.net/2025/04/29/international-bornagain-machines.html" class="u-url"><time class="dt-published" datetime="2025-04-29 09:01:05 -0500">Apr 29, 2025</time></a>
+		<a href="https://route12b.net/2025/04/29/international-bornagain-machines.html" class="u-url"><time class="dt-published" datetime="2025-04-29 10:01:05 -0400">Apr 29, 2025</time></a>
 
 		<div class="e-content">
 			 <p>Two separate reports out of the Wall Street Journal detail the renaissance IBM is currently experiencing under CEO Arvind Krishna.</p>
@@ -624,7 +657,7 @@ God: for you, around 3rd grade. Good luck!</p>
 	  <div class="h-entry">
 		
 
-		<a href="https://route12b.net/2025/04/27/meta-just-migrated-threads-to.html" class="u-url"><time class="dt-published" datetime="2025-04-27 13:29:39 -0500">Apr 27, 2025</time></a>
+		<a href="https://route12b.net/2025/04/27/meta-just-migrated-threads-to.html" class="u-url"><time class="dt-published" datetime="2025-04-27 14:29:39 -0400">Apr 27, 2025</time></a>
 
 		<div class="e-content">
 			 <p>Meta just <a href="https://www.engadget.com/social-media/threads-is-moving-to-threadscom-and-adding-a-bunch-of-new-web-features-190006238.html">migrated</a> Threads to the more prestigious <code>Threads.com</code> domain after acquiring it in September. Expect some cool new features: custom feeds, multi-column views, and easier post sharing. Plus, new tools for personalization and security.</p>
@@ -635,7 +668,7 @@ God: for you, around 3rd grade. Good luck!</p>
 	  <div class="h-entry">
 		
 
-		<a href="https://route12b.net/2025/04/27/my-favorite-comic-strip-while.html" class="u-url"><time class="dt-published" datetime="2025-04-27 10:24:48 -0500">Apr 27, 2025</time></a>
+		<a href="https://route12b.net/2025/04/27/my-favorite-comic-strip-while.html" class="u-url"><time class="dt-published" datetime="2025-04-27 11:24:48 -0400">Apr 27, 2025</time></a>
 
 		<div class="e-content">
 			 <p>My favorite comic strip while growing up was Peanuts. I collected the Sundays and recorded all the specials on VHS. But I never knew that Charlie Brown was named after a <a href="https://historyfacts.com/arts-culture/fact/real-charlie-brown-real-person/">real person</a>. While working as an art instructor in 1950, Charles Schulz asked Charlie Brown to use the name in his new strip.</p>
@@ -648,7 +681,7 @@ God: for you, around 3rd grade. Good luck!</p>
 			<h1><a href="https://route12b.net/2025/04/26/the-system-prompt-is-down.html">The System Prompt is Down</a></h1>
 		
 
-		<a href="https://route12b.net/2025/04/26/the-system-prompt-is-down.html" class="u-url"><time class="dt-published" datetime="2025-04-26 04:50:20 -0500">Apr 26, 2025</time></a>
+		<a href="https://route12b.net/2025/04/26/the-system-prompt-is-down.html" class="u-url"><time class="dt-published" datetime="2025-04-26 05:50:20 -0400">Apr 26, 2025</time></a>
 
 		<div class="e-content">
 			 <p>Why are AI system prompts being treated like digital gold, leaked and protected like user passwords? What’s the real difference between a system prompt and a user prompt?</p>
@@ -672,7 +705,7 @@ God: for you, around 3rd grade. Good luck!</p>
 			<h1><a href="https://route12b.net/2025/04/24/chrome-covet.html">Chrome Covet</a></h1>
 		
 
-		<a href="https://route12b.net/2025/04/24/chrome-covet.html" class="u-url"><time class="dt-published" datetime="2025-04-24 23:23:57 -0500">Apr 24, 2025</time></a>
+		<a href="https://route12b.net/2025/04/24/chrome-covet.html" class="u-url"><time class="dt-published" datetime="2025-04-25 00:23:57 -0400">Apr 25, 2025</time></a>
 
 		<div class="e-content">
 			 <p>No fewer than three companies: Yahoo (yes, you read that right), OpenAI, and Perplexity have each been reported by The Verge as being interested in acquiring Google Chrome should the need to sell become reality.</p>
@@ -694,7 +727,7 @@ God: for you, around 3rd grade. Good luck!</p>
 	  <div class="h-entry">
 		
 
-		<a href="https://route12b.net/2025/04/22/i-think-macworld-s-macalope.html" class="u-url"><time class="dt-published" datetime="2025-04-22 08:23:57 -0500">Apr 22, 2025</time></a>
+		<a href="https://route12b.net/2025/04/22/i-think-macworld-s-macalope.html" class="u-url"><time class="dt-published" datetime="2025-04-22 09:23:57 -0400">Apr 22, 2025</time></a>
 
 		<div class="e-content">
 			 <p>I think Macworld ‘s Macalope meant “slap MacOS on the <em>iPad</em> and call it a day”. But I’m not 100% sure the way it’s written. 🤷🏼‍♂️</p>
@@ -706,7 +739,7 @@ God: for you, around 3rd grade. Good luck!</p>
 	  <div class="h-entry">
 		
 
-		<a href="https://route12b.net/2025/04/21/tampa-bays-col-advantage-has.html" class="u-url"><time class="dt-published" datetime="2025-04-21 18:35:08 -0500">Apr 21, 2025</time></a>
+		<a href="https://route12b.net/2025/04/21/tampa-bays-col-advantage-has.html" class="u-url"><time class="dt-published" datetime="2025-04-21 19:35:08 -0400">Apr 21, 2025</time></a>
 
 		<div class="e-content">
 			 <p>Tampa Bay&rsquo;s COL <a href="https://www.axios.com/local/tampa-bay/2025/04/21/fewer-people-move-tampa-bay">advantage</a> has largely evaporated. The in-migration trend took a hit in 2024, with 24k fewer movers than 2023. Rising insurance costs, hurricane fears, and RTO are all to blame. The area is losing its edge. But maybe at least the traffic will improve.</p>
@@ -719,7 +752,7 @@ God: for you, around 3rd grade. Good luck!</p>
 			<h1><a href="https://route12b.net/2025/04/21/the-color-olo.html">The color &#34;Olo&#34;</a></h1>
 		
 
-		<a href="https://route12b.net/2025/04/21/the-color-olo.html" class="u-url"><time class="dt-published" datetime="2025-04-21 10:44:37 -0500">Apr 21, 2025</time></a>
+		<a href="https://route12b.net/2025/04/21/the-color-olo.html" class="u-url"><time class="dt-published" datetime="2025-04-21 11:44:37 -0400">Apr 21, 2025</time></a>
 
 		<div class="e-content">
 			 <p>A top restaurant SaaS company <em>AND</em> a new color? Yes: Olo.</p>
@@ -737,7 +770,7 @@ God: for you, around 3rd grade. Good luck!</p>
 			<h1><a href="https://route12b.net/2025/04/20/save-the-planet-be-a.html">Save the planet: be a jerk​</a></h1>
 		
 
-		<a href="https://route12b.net/2025/04/20/save-the-planet-be-a.html" class="u-url"><time class="dt-published" datetime="2025-04-20 09:51:45 -0500">Apr 20, 2025</time></a>
+		<a href="https://route12b.net/2025/04/20/save-the-planet-be-a.html" class="u-url"><time class="dt-published" datetime="2025-04-20 10:51:45 -0400">Apr 20, 2025</time></a>
 
 		<div class="e-content">
 			 <p>Sam Altman <a href="https://futurism.com/altman-please-thanks-chatgpt">mentioned</a> that our collective politeness to ChatGPT is costing OpenAI &ldquo;tens of millions of dollars&rdquo; in additional computing resources. Every time we add &ldquo;please&rdquo; or &ldquo;thank you&rdquo; to our prompts, we&rsquo;re increasing server load and electricity consumption.</p>
@@ -750,7 +783,7 @@ God: for you, around 3rd grade. Good luck!</p>
 			<h1><a href="https://route12b.net/2025/04/19/jeff-bridges-abides.html">Jeff Bridges Abides</a></h1>
 		
 
-		<a href="https://route12b.net/2025/04/19/jeff-bridges-abides.html" class="u-url"><time class="dt-published" datetime="2025-04-19 20:44:53 -0500">Apr 19, 2025</time></a>
+		<a href="https://route12b.net/2025/04/19/jeff-bridges-abides.html" class="u-url"><time class="dt-published" datetime="2025-04-19 21:44:53 -0400">Apr 19, 2025</time></a>
 
 		<div class="e-content">
 			 <p>Saw something interesting today about the beloved cult classic &ldquo;The Big Lebowski.&rdquo; Jeff Bridges recently revealed at an LA screening that he&rsquo;s genuinely interested in bringing The Dude back to our screens. He mentioned that Julianne Moore shares his enthusiasm, and they&rsquo;ve apparently discussed sequel possibilities.</p>
@@ -767,7 +800,7 @@ God: for you, around 3rd grade. Good luck!</p>
 			<h1><a href="https://route12b.net/2025/04/17/sparkling-mineral-water-with-no.html">Sparkling mineral water with no bubbles</a></h1>
 		
 
-		<a href="https://route12b.net/2025/04/17/sparkling-mineral-water-with-no.html" class="u-url"><time class="dt-published" datetime="2025-04-17 09:42:28 -0500">Apr 17, 2025</time></a>
+		<a href="https://route12b.net/2025/04/17/sparkling-mineral-water-with-no.html" class="u-url"><time class="dt-published" datetime="2025-04-17 10:42:28 -0400">Apr 17, 2025</time></a>
 
 		<div class="e-content">
 			 <p>Borrowed from TikTok:</p>
@@ -793,7 +826,7 @@ God: for you, around 3rd grade. Good luck!</p>
 			<h1><a href="https://route12b.net/2025/04/16/vibe-ems.html">Vibe EMs</a></h1>
 		
 
-		<a href="https://route12b.net/2025/04/16/vibe-ems.html" class="u-url"><time class="dt-published" datetime="2025-04-16 08:25:59 -0500">Apr 16, 2025</time></a>
+		<a href="https://route12b.net/2025/04/16/vibe-ems.html" class="u-url"><time class="dt-published" datetime="2025-04-16 09:25:59 -0400">Apr 16, 2025</time></a>
 
 		<div class="e-content">
 			 <p>There&rsquo;s vibe-coding. And you may have even heard of vibe-project management: where projects are guided by a gut feeling or the overall mood of the team. Or maybe just the PM&rsquo;s feelings.</p>
@@ -817,7 +850,7 @@ God: for you, around 3rd grade. Good luck!</p>
 	  <div class="h-entry">
 		
 
-		<a href="https://route12b.net/2025/04/03/vibe-painting-hermes-messenger-of.html" class="u-url"><time class="dt-published" datetime="2025-04-03 07:49:51 -0500">Apr 3, 2025</time></a>
+		<a href="https://route12b.net/2025/04/03/vibe-painting-hermes-messenger-of.html" class="u-url"><time class="dt-published" datetime="2025-04-03 08:49:51 -0400">Apr 3, 2025</time></a>
 
 		<div class="e-content">
 			 <p>Vibe painting. Hermes, messenger of the gods. Oil on GPT 4o.</p>
@@ -829,7 +862,7 @@ God: for you, around 3rd grade. Good luck!</p>
 	  <div class="h-entry">
 		
 
-		<a href="https://route12b.net/2025/04/02/new-location-services-privacy-setting.html" class="u-url"><time class="dt-published" datetime="2025-04-02 07:34:52 -0500">Apr 2, 2025</time></a>
+		<a href="https://route12b.net/2025/04/02/new-location-services-privacy-setting.html" class="u-url"><time class="dt-published" datetime="2025-04-02 08:34:52 -0400">Apr 2, 2025</time></a>
 
 		<div class="e-content">
 			 <p>New location services privacy setting to turn off in iOS 18.4. Toggled on by default.</p>
@@ -841,7 +874,7 @@ God: for you, around 3rd grade. Good luck!</p>
 	  <div class="h-entry">
 		
 
-		<a href="https://route12b.net/2025/04/01/my-neighbor-is-having-some.html" class="u-url"><time class="dt-published" datetime="2025-04-01 13:15:52 -0500">Apr 1, 2025</time></a>
+		<a href="https://route12b.net/2025/04/01/my-neighbor-is-having-some.html" class="u-url"><time class="dt-published" datetime="2025-04-01 14:15:52 -0400">Apr 1, 2025</time></a>
 
 		<div class="e-content">
 			 <p>My neighbor is having some landscaping done and they&rsquo;ve been using the gas-powered leaf blower for at least 45 minutes. I&rsquo;m surprised it hasn&rsquo;t run out of gas yet.</p>
@@ -852,7 +885,7 @@ God: for you, around 3rd grade. Good luck!</p>
 	  <div class="h-entry">
 		
 
-		<a href="https://route12b.net/2025/04/01/ok-good-so-no-more.html" class="u-url"><time class="dt-published" datetime="2025-04-01 08:52:27 -0500">Apr 1, 2025</time></a>
+		<a href="https://route12b.net/2025/04/01/ok-good-so-no-more.html" class="u-url"><time class="dt-published" datetime="2025-04-01 09:52:27 -0400">Apr 1, 2025</time></a>
 
 		<div class="e-content">
 			 <p>OK, good. So no more melting GPUs right?
@@ -864,7 +897,7 @@ God: for you, around 3rd grade. Good luck!</p>
 	  <div class="h-entry">
 		
 
-		<a href="https://route12b.net/2025/03/30/took-the-image-of-the.html" class="u-url"><time class="dt-published" datetime="2025-03-30 08:53:40 -0500">Mar 30, 2025</time></a>
+		<a href="https://route12b.net/2025/03/30/took-the-image-of-the.html" class="u-url"><time class="dt-published" datetime="2025-03-30 09:53:40 -0400">Mar 30, 2025</time></a>
 
 		<div class="e-content">
 			 <p>Took the image of the <a href="https://www.apple.com/mac/lumon-terminal-pro/">Lumon Terminal Pro</a>, used a little GPT-4o magic and made a decent first-pass of an album cover for my Severance music playlist.</p>
@@ -876,7 +909,7 @@ God: for you, around 3rd grade. Good luck!</p>
 	  <div class="h-entry">
 		
 
-		<a href="https://route12b.net/2025/03/30/vibepainting-marie-antoinette-oil-on.html" class="u-url"><time class="dt-published" datetime="2025-03-30 07:53:58 -0500">Mar 30, 2025</time></a>
+		<a href="https://route12b.net/2025/03/30/vibepainting-marie-antoinette-oil-on.html" class="u-url"><time class="dt-published" datetime="2025-03-30 08:53:58 -0400">Mar 30, 2025</time></a>
 
 		<div class="e-content">
 			 <p>Vibe-painting. Marie Antoinette. Oil on GPT 4o.</p>
@@ -888,7 +921,7 @@ God: for you, around 3rd grade. Good luck!</p>
 	  <div class="h-entry">
 		
 
-		<a href="https://route12b.net/2025/03/28/vibepainting-napoleon-bonaparte-oil-on.html" class="u-url"><time class="dt-published" datetime="2025-03-28 07:40:17 -0500">Mar 28, 2025</time></a>
+		<a href="https://route12b.net/2025/03/28/vibepainting-napoleon-bonaparte-oil-on.html" class="u-url"><time class="dt-published" datetime="2025-03-28 08:40:17 -0400">Mar 28, 2025</time></a>
 
 		<div class="e-content">
 			 <p>Vibe-painting. Napoleon Bonaparte. Oil on ChatGPT.</p>
@@ -900,7 +933,7 @@ God: for you, around 3rd grade. Good luck!</p>
 	  <div class="h-entry">
 		
 
-		<a href="https://route12b.net/2025/03/27/vibepainting-george-washington-oil-on.html" class="u-url"><time class="dt-published" datetime="2025-03-27 06:24:45 -0500">Mar 27, 2025</time></a>
+		<a href="https://route12b.net/2025/03/27/vibepainting-george-washington-oil-on.html" class="u-url"><time class="dt-published" datetime="2025-03-27 07:24:45 -0400">Mar 27, 2025</time></a>
 
 		<div class="e-content">
 			 <p>Vibe-painting. George Washington. Oil on ChatGPT.</p>
@@ -912,7 +945,7 @@ God: for you, around 3rd grade. Good luck!</p>
 	  <div class="h-entry">
 		
 
-		<a href="https://route12b.net/2025/03/25/chatgpts-new-image-generation-capabilities.html" class="u-url"><time class="dt-published" datetime="2025-03-25 20:17:59 -0500">Mar 25, 2025</time></a>
+		<a href="https://route12b.net/2025/03/25/chatgpts-new-image-generation-capabilities.html" class="u-url"><time class="dt-published" datetime="2025-03-25 21:17:59 -0400">Mar 25, 2025</time></a>
 
 		<div class="e-content">
 			 <p>ChatGPT’s new image generation capabilities are quite impressive.</p>
@@ -924,7 +957,7 @@ God: for you, around 3rd grade. Good luck!</p>
 	  <div class="h-entry">
 		
 
-		<a href="https://route12b.net/2025/03/24/one-of-my-favorite-sorts.html" class="u-url"><time class="dt-published" datetime="2025-03-24 08:04:38 -0500">Mar 24, 2025</time></a>
+		<a href="https://route12b.net/2025/03/24/one-of-my-favorite-sorts.html" class="u-url"><time class="dt-published" datetime="2025-03-24 09:04:38 -0400">Mar 24, 2025</time></a>
 
 		<div class="e-content">
 			 <p>One of my favorite sorts to watch from Sorting Visualizer: Time sort.</p>
@@ -936,7 +969,7 @@ God: for you, around 3rd grade. Good luck!</p>
 	  <div class="h-entry">
 		
 
-		<a href="https://route12b.net/2025/03/22/this-one-was-a-lot.html" class="u-url"><time class="dt-published" datetime="2025-03-22 08:57:05 -0500">Mar 22, 2025</time></a>
+		<a href="https://route12b.net/2025/03/22/this-one-was-a-lot.html" class="u-url"><time class="dt-published" datetime="2025-03-22 09:57:05 -0400">Mar 22, 2025</time></a>
 
 		<div class="e-content">
 			 <p><a href="https://apps.apple.com/us/app/sorting-visualizer/id6743373810">This one</a> was a lot of fun to work through. Inspired, of course, by all those funny-sounding sorting videos on YouTube (and on Tidbyts!)</p>
@@ -947,7 +980,7 @@ God: for you, around 3rd grade. Good luck!</p>
 	  <div class="h-entry">
 		
 
-		<a href="https://route12b.net/2025/03/14/when-youre-vibe-coding-a.html" class="u-url"><time class="dt-published" datetime="2025-03-14 07:29:21 -0500">Mar 14, 2025</time></a>
+		<a href="https://route12b.net/2025/03/14/when-youre-vibe-coding-a.html" class="u-url"><time class="dt-published" datetime="2025-03-14 08:29:21 -0400">Mar 14, 2025</time></a>
 
 		<div class="e-content">
 			 <p>When you&rsquo;re vibe coding a project, don&rsquo;t forget these tips:</p>
@@ -963,7 +996,7 @@ God: for you, around 3rd grade. Good luck!</p>
 	  <div class="h-entry">
 		
 
-		<a href="https://route12b.net/2025/03/10/prioritiesthis-vs-that.html" class="u-url"><time class="dt-published" datetime="2025-03-10 17:47:45 -0500">Mar 10, 2025</time></a>
+		<a href="https://route12b.net/2025/03/10/prioritiesthis-vs-that.html" class="u-url"><time class="dt-published" datetime="2025-03-10 18:47:45 -0400">Mar 10, 2025</time></a>
 
 		<div class="e-content">
 			 <p>Priorities:
@@ -975,7 +1008,7 @@ God: for you, around 3rd grade. Good luck!</p>
 	  <div class="h-entry">
 		
 
-		<a href="https://route12b.net/2025/03/06/great-read-in-ars-i.html" class="u-url"><time class="dt-published" datetime="2025-03-06 03:58:32 -0500">Mar 6, 2025</time></a>
+		<a href="https://route12b.net/2025/03/06/great-read-in-ars-i.html" class="u-url"><time class="dt-published" datetime="2025-03-06 04:58:32 -0400">Mar 6, 2025</time></a>
 
 		<div class="e-content">
 			 <p>Great <a href="https://arstechnica.com/ai/2025/03/is-vibe-coding-with-ai-gnarly-or-reckless-maybe-some-of-both/">read</a> in Ars. I definitely vibe-coded most of Prime Number Finder.</p>
@@ -986,7 +1019,7 @@ God: for you, around 3rd grade. Good luck!</p>
 	  <div class="h-entry">
 		
 
-		<a href="https://route12b.net/2025/03/05/this-seems-timely.html" class="u-url"><time class="dt-published" datetime="2025-03-05 15:10:16 -0500">Mar 5, 2025</time></a>
+		<a href="https://route12b.net/2025/03/05/this-seems-timely.html" class="u-url"><time class="dt-published" datetime="2025-03-05 16:10:16 -0400">Mar 5, 2025</time></a>
 
 		<div class="e-content">
 			 <p>This seems timely.
@@ -998,7 +1031,7 @@ God: for you, around 3rd grade. Good luck!</p>
 	  <div class="h-entry">
 		
 
-		<a href="https://route12b.net/2025/03/04/want-to-get-rich-heres.html" class="u-url"><time class="dt-published" datetime="2025-03-04 07:15:19 -0500">Mar 4, 2025</time></a>
+		<a href="https://route12b.net/2025/03/04/want-to-get-rich-heres.html" class="u-url"><time class="dt-published" datetime="2025-03-04 08:15:19 -0400">Mar 4, 2025</time></a>
 
 		<div class="e-content">
 			 <p>Want to get rich? Here’s how:</p>
@@ -1015,7 +1048,7 @@ God: for you, around 3rd grade. Good luck!</p>
 	  <div class="h-entry">
 		
 
-		<a href="https://route12b.net/2025/03/02/its-fine-everything-is-fine.html" class="u-url"><time class="dt-published" datetime="2025-03-02 11:22:58 -0500">Mar 2, 2025</time></a>
+		<a href="https://route12b.net/2025/03/02/its-fine-everything-is-fine.html" class="u-url"><time class="dt-published" datetime="2025-03-02 12:22:58 -0400">Mar 2, 2025</time></a>
 
 		<div class="e-content">
 			 <p>It&rsquo;s fine. Everything is fine.</p>
@@ -1029,7 +1062,7 @@ God: for you, around 3rd grade. Good luck!</p>
 			<h1><a href="https://route12b.net/2025/02/25/dipping-into-the-ios-app.html">Dipping into the iOS App Pool</a></h1>
 		
 
-		<a href="https://route12b.net/2025/02/25/dipping-into-the-ios-app.html" class="u-url"><time class="dt-published" datetime="2025-02-25 09:38:30 -0500">Feb 25, 2025</time></a>
+		<a href="https://route12b.net/2025/02/25/dipping-into-the-ios-app.html" class="u-url"><time class="dt-published" datetime="2025-02-25 10:38:30 -0400">Feb 25, 2025</time></a>
 
 		<div class="e-content">
 			 <p>There’s an itch I’ve been meaning to scratch for the better part of 15 years now. And among job, family, and let’s face it, lack of motivation, I’ve never been able to get anywhere near to creating my own iOS app that I could call my own and share on the App Store. Until now.</p>
@@ -1050,7 +1083,7 @@ God: for you, around 3rd grade. Good luck!</p>
 	  <div class="h-entry">
 		
 
-		<a href="https://route12b.net/2025/02/13/this-is-one-of-those.html" class="u-url"><time class="dt-published" datetime="2025-02-13 08:35:04 -0500">Feb 13, 2025</time></a>
+		<a href="https://route12b.net/2025/02/13/this-is-one-of-those.html" class="u-url"><time class="dt-published" datetime="2025-02-13 09:35:04 -0400">Feb 13, 2025</time></a>
 
 		<div class="e-content">
 			 <p>This is one of those rare <a href="https://www.linkedin.com/posts/krisrchase_the-end-of-programming-as-we-know-it-activity-7293653349059436544-FbR0">takes</a> that really nails it. I love the comparison with the industrial and PC revolutions. I posted something similar (but not nearly as smart) somewhere. It sounds ominous, but it really isn&rsquo;t. Highly recommended reading.</p>
@@ -1061,7 +1094,7 @@ God: for you, around 3rd grade. Good luck!</p>
 	  <div class="h-entry">
 		
 
-		<a href="https://route12b.net/2025/02/11/i-really-liked-foxs-scorebug.html" class="u-url"><time class="dt-published" datetime="2025-02-11 03:17:48 -0500">Feb 11, 2025</time></a>
+		<a href="https://route12b.net/2025/02/11/i-really-liked-foxs-scorebug.html" class="u-url"><time class="dt-published" datetime="2025-02-11 04:17:48 -0400">Feb 11, 2025</time></a>
 
 		<div class="e-content">
 			 <p>I really liked Fox’s scorebug that was shown during the Super Bowl. Reminiscent of older broadcasts. Classy and easy to read.</p>
@@ -1072,7 +1105,7 @@ God: for you, around 3rd grade. Good luck!</p>
 	  <div class="h-entry">
 		
 
-		<a href="https://route12b.net/2025/02/08/dear-internet-stop-giving-away.html" class="u-url"><time class="dt-published" datetime="2025-02-08 09:30:56 -0500">Feb 8, 2025</time></a>
+		<a href="https://route12b.net/2025/02/08/dear-internet-stop-giving-away.html" class="u-url"><time class="dt-published" datetime="2025-02-08 10:30:56 -0400">Feb 8, 2025</time></a>
 
 		<div class="e-content">
 			 <p>Dear Internet, stop giving away your Severance theories! They&rsquo;re basically spoilers.</p>
@@ -1083,7 +1116,7 @@ God: for you, around 3rd grade. Good luck!</p>
 	  <div class="h-entry">
 		
 
-		<a href="https://route12b.net/2025/02/07/as-an-apple-news-user.html" class="u-url"><time class="dt-published" datetime="2025-02-07 15:28:40 -0500">Feb 7, 2025</time></a>
+		<a href="https://route12b.net/2025/02/07/as-an-apple-news-user.html" class="u-url"><time class="dt-published" datetime="2025-02-07 16:28:40 -0400">Feb 7, 2025</time></a>
 
 		<div class="e-content">
 			 <p>As an Apple News+ user one of the most frustrating things is that there&rsquo;s no easy way to open the current News App article in the default browser (for sharing with a non-News App user, for example). The process I depended on was opening the share sheet, copying the link and then switching to the browser. With the help of AI, I finally have a <a href="https://www.icloud.com/shortcuts/7942637f616c4e57a24335374369d2b7">shortcut</a> that I have added to the share sheet which does this automatically.</p>
@@ -1095,7 +1128,7 @@ God: for you, around 3rd grade. Good luck!</p>
 	  <div class="h-entry">
 		
 
-		<a href="https://route12b.net/2025/02/07/for-anyone-looking-for-a.html" class="u-url"><time class="dt-published" datetime="2025-02-07 10:04:30 -0500">Feb 7, 2025</time></a>
+		<a href="https://route12b.net/2025/02/07/for-anyone-looking-for-a.html" class="u-url"><time class="dt-published" datetime="2025-02-07 11:04:30 -0400">Feb 7, 2025</time></a>
 
 		<div class="e-content">
 			 <p>For anyone looking for a good, lightly-used white noise machine, I have a 2019 Intel MacBook Pro that fits the bill perfectly.</p>
@@ -1106,7 +1139,7 @@ God: for you, around 3rd grade. Good luck!</p>
 	  <div class="h-entry">
 		
 
-		<a href="https://route12b.net/2025/02/05/super-bowl-ticket-prices-are.html" class="u-url"><time class="dt-published" datetime="2025-02-05 09:06:40 -0500">Feb 5, 2025</time></a>
+		<a href="https://route12b.net/2025/02/05/super-bowl-ticket-prices-are.html" class="u-url"><time class="dt-published" datetime="2025-02-05 10:06:40 -0400">Feb 5, 2025</time></a>
 
 		<div class="e-content">
 			 <p>Super Bowl ticket prices are plummeting. Can&rsquo;t imagine why.</p>
@@ -1117,7 +1150,7 @@ God: for you, around 3rd grade. Good luck!</p>
 	  <div class="h-entry">
 		
 
-		<a href="https://route12b.net/2025/02/02/thats-right-woodchuck-chuckers-its.html" class="u-url"><time class="dt-published" datetime="2025-02-02 07:52:53 -0500">Feb 2, 2025</time></a>
+		<a href="https://route12b.net/2025/02/02/thats-right-woodchuck-chuckers-its.html" class="u-url"><time class="dt-published" datetime="2025-02-02 08:52:53 -0400">Feb 2, 2025</time></a>
 
 		<div class="e-content">
 			 <p>That’s right, woodchuck chuckers! It’s Groundhog Day!</p>
@@ -1129,7 +1162,7 @@ God: for you, around 3rd grade. Good luck!</p>
 	  <div class="h-entry">
 		
 
-		<a href="https://route12b.net/2025/01/27/i-dont-mean-to-brag.html" class="u-url"><time class="dt-published" datetime="2025-01-27 12:30:59 -0500">Jan 27, 2025</time></a>
+		<a href="https://route12b.net/2025/01/27/i-dont-mean-to-brag.html" class="u-url"><time class="dt-published" datetime="2025-01-27 13:30:59 -0400">Jan 27, 2025</time></a>
 
 		<div class="e-content">
 			 <p>I don&rsquo;t mean to brag, but I started using DeepSeek before it was cool, thanks to <a href="https://www.theneurondaily.com/">The Neuron Daily</a> email newsletter. Started using DeepSeek about a month ago. Sweet.</p>
@@ -1140,7 +1173,7 @@ God: for you, around 3rd grade. Good luck!</p>
 	  <div class="h-entry">
 		
 
-		<a href="https://route12b.net/2025/01/27/this-years-super-bowl-is.html" class="u-url"><time class="dt-published" datetime="2025-01-27 03:25:44 -0500">Jan 27, 2025</time></a>
+		<a href="https://route12b.net/2025/01/27/this-years-super-bowl-is.html" class="u-url"><time class="dt-published" datetime="2025-01-27 04:25:44 -0400">Jan 27, 2025</time></a>
 
 		<div class="e-content">
 			 <p>This year’s Super Bowl is like season 8 of The Office vs. the two Matrix sequels.</p>
@@ -1151,7 +1184,7 @@ God: for you, around 3rd grade. Good luck!</p>
 	  <div class="h-entry">
 		
 
-		<a href="https://route12b.net/2025/01/26/as-a-software-engineering-leader.html" class="u-url"><time class="dt-published" datetime="2025-01-26 11:25:20 -0500">Jan 26, 2025</time></a>
+		<a href="https://route12b.net/2025/01/26/as-a-software-engineering-leader.html" class="u-url"><time class="dt-published" datetime="2025-01-26 12:25:20 -0400">Jan 26, 2025</time></a>
 
 		<div class="e-content">
 			 <p>As a software engineering leader, my role often feels like a balancing act: juggling technical challenges, team dynamics, and quarterly objectives - all while trying to ensure the team feels supported, empowered, and safe. In the middle of all this, it’s easy to fall into the trap of wanting to fix every problem that comes my way. But what if the most impactful thing to do isn’t to fix anything at all, but to listen?</p>
@@ -1166,7 +1199,7 @@ God: for you, around 3rd grade. Good luck!</p>
 	  <div class="h-entry">
 		
 
-		<a href="https://route12b.net/2025/01/23/want-to-catch-llm-webcrawlers.html" class="u-url"><time class="dt-published" datetime="2025-01-23 14:42:16 -0500">Jan 23, 2025</time></a>
+		<a href="https://route12b.net/2025/01/23/want-to-catch-llm-webcrawlers.html" class="u-url"><time class="dt-published" datetime="2025-01-23 15:42:16 -0400">Jan 23, 2025</time></a>
 
 		<div class="e-content">
 			 <p>Want to catch LLM web-crawlers? Here ya go: <a href="https://zadzmo.org/code/nepenthes/">zadzmo.org/code/nepe&hellip;</a></p>
@@ -1177,7 +1210,7 @@ God: for you, around 3rd grade. Good luck!</p>
 	  <div class="h-entry">
 		
 
-		<a href="https://route12b.net/2025/01/22/for-those-of-you-who.html" class="u-url"><time class="dt-published" datetime="2025-01-22 09:50:24 -0500">Jan 22, 2025</time></a>
+		<a href="https://route12b.net/2025/01/22/for-those-of-you-who.html" class="u-url"><time class="dt-published" datetime="2025-01-22 10:50:24 -0400">Jan 22, 2025</time></a>
 
 		<div class="e-content">
 			 <p>For those of you who, like me, fall into the center of the Venn diagram of &ldquo;those who follow Instagram memes&rdquo; and &ldquo;those who listen to Yacht Rock&rdquo;, might I suggest adding Cilla Black&rsquo;s &ldquo;Surprise Surprise&rdquo; to your playlist. You won&rsquo;t be disappointed.</p>
@@ -1188,7 +1221,7 @@ God: for you, around 3rd grade. Good luck!</p>
 	  <div class="h-entry">
 		
 
-		<a href="https://route12b.net/2025/01/20/i-have-apple-intelligence-i.html" class="u-url"><time class="dt-published" datetime="2025-01-20 12:50:55 -0500">Jan 20, 2025</time></a>
+		<a href="https://route12b.net/2025/01/20/i-have-apple-intelligence-i.html" class="u-url"><time class="dt-published" datetime="2025-01-20 13:50:55 -0400">Jan 20, 2025</time></a>
 
 		<div class="e-content">
 			 <p>I have Apple Intelligence. I use Apple Music. Please make it so I can use both to seamlessly beat match tracks on my playlist automatically. Spotify already has something similar with select playlists. Come on, Apple.</p>
@@ -1199,7 +1232,7 @@ God: for you, around 3rd grade. Good luck!</p>
 	  <div class="h-entry">
 		
 
-		<a href="https://route12b.net/2025/01/09/so-changing-the-region-from.html" class="u-url"><time class="dt-published" datetime="2025-01-09 18:45:34 -0500">Jan 9, 2025</time></a>
+		<a href="https://route12b.net/2025/01/09/so-changing-the-region-from.html" class="u-url"><time class="dt-published" datetime="2025-01-09 19:45:34 -0400">Jan 9, 2025</time></a>
 
 		<div class="e-content">
 			 <p>So changing the region from US to UK back to US &ndash; in both Siri and Region Settings &ndash; fixed it 🤷🏻‍♂️</p>
@@ -1211,7 +1244,7 @@ God: for you, around 3rd grade. Good luck!</p>
 	  <div class="h-entry">
 		
 
-		<a href="https://route12b.net/2025/01/09/anyone-have-an-estimate-as.html" class="u-url"><time class="dt-published" datetime="2025-01-09 17:29:58 -0500">Jan 9, 2025</time></a>
+		<a href="https://route12b.net/2025/01/09/anyone-have-an-estimate-as.html" class="u-url"><time class="dt-published" datetime="2025-01-09 18:29:58 -0400">Jan 9, 2025</time></a>
 
 		<div class="e-content">
 			 <p>Anyone have an estimate as to how long this should last? It’s been like this for about 24 hours now. To be fair it hasn’t always been plugged into power.</p>
@@ -1223,7 +1256,7 @@ God: for you, around 3rd grade. Good luck!</p>
 	  <div class="h-entry">
 		
 
-		<a href="https://route12b.net/2025/01/09/one-of-the-features-on.html" class="u-url"><time class="dt-published" datetime="2025-01-09 12:45:30 -0500">Jan 9, 2025</time></a>
+		<a href="https://route12b.net/2025/01/09/one-of-the-features-on.html" class="u-url"><time class="dt-published" datetime="2025-01-09 13:45:30 -0400">Jan 9, 2025</time></a>
 
 		<div class="e-content">
 			 <p>One of the features on iPhone 16 Pro that impressed me the most? Not Apple Intelligence, not camera control, not standby mode. But rather hearing my morning alarm loop in a 4 bar tempo correctly in time rather than cutting out for a second before repeating like on my old 12 pro. Truly magical.</p>
@@ -1234,7 +1267,7 @@ God: for you, around 3rd grade. Good luck!</p>
 	  <div class="h-entry">
 		
 
-		<a href="https://route12b.net/2025/01/06/buy-new-iphone-pro-buy.html" class="u-url"><time class="dt-published" datetime="2025-01-06 09:24:33 -0500">Jan 6, 2025</time></a>
+		<a href="https://route12b.net/2025/01/06/buy-new-iphone-pro-buy.html" class="u-url"><time class="dt-published" datetime="2025-01-06 10:24:33 -0400">Jan 6, 2025</time></a>
 
 		<div class="e-content">
 			 <ol>
@@ -1251,7 +1284,7 @@ God: for you, around 3rd grade. Good luck!</p>
 	  <div class="h-entry">
 		
 
-		<a href="https://route12b.net/2025/01/05/tried-out-the-free-elevenlabs.html" class="u-url"><time class="dt-published" datetime="2025-01-05 09:54:28 -0500">Jan 5, 2025</time></a>
+		<a href="https://route12b.net/2025/01/05/tried-out-the-free-elevenlabs.html" class="u-url"><time class="dt-published" datetime="2025-01-05 10:54:28 -0400">Jan 5, 2025</time></a>
 
 		<div class="e-content">
 			 <p>Tried out the free (!) <a href="https://elevenlabs.io/text-reader">ElevenLabs app</a>. For an absolutely free app (no subscriptions), it&rsquo;s pretty slick. You can link to a news article and have it read to you in your favorite AI voice, or try out the new podcast tool where the article is summarized in podcast form.</p>
@@ -1262,7 +1295,7 @@ God: for you, around 3rd grade. Good luck!</p>
 	  <div class="h-entry">
 		
 
-		<a href="https://route12b.net/2025/01/04/its-the-beginning-of-the.html" class="u-url"><time class="dt-published" datetime="2025-01-04 08:38:34 -0500">Jan 4, 2025</time></a>
+		<a href="https://route12b.net/2025/01/04/its-the-beginning-of-the.html" class="u-url"><time class="dt-published" datetime="2025-01-04 09:38:34 -0400">Jan 4, 2025</time></a>
 
 		<div class="e-content">
 			 <p>It’s the <a href="https://www.axios.com/2025/01/04/landline-phone-copper-att">beginning of the end</a> for landline phone service.</p>
@@ -1273,7 +1306,7 @@ God: for you, around 3rd grade. Good luck!</p>
 	  <div class="h-entry">
 		
 
-		<a href="https://route12b.net/2025/01/03/todays-unnecessary-program-var-random.html" class="u-url"><time class="dt-published" datetime="2025-01-03 13:05:51 -0500">Jan 3, 2025</time></a>
+		<a href="https://route12b.net/2025/01/03/todays-unnecessary-program-var-random.html" class="u-url"><time class="dt-published" datetime="2025-01-03 14:05:51 -0400">Jan 3, 2025</time></a>
 
 		<div class="e-content">
 			 <p>Today&rsquo;s unnecessary program:</p>
@@ -1297,7 +1330,7 @@ while (outputNum &gt; 1)
 	  <div class="h-entry">
 		
 
-		<a href="https://route12b.net/2025/01/02/im-happy-to-have-been.html" class="u-url"><time class="dt-published" datetime="2025-01-02 20:20:46 -0500">Jan 2, 2025</time></a>
+		<a href="https://route12b.net/2025/01/02/im-happy-to-have-been.html" class="u-url"><time class="dt-published" datetime="2025-01-02 21:20:46 -0400">Jan 2, 2025</time></a>
 
 		<div class="e-content">
 			 <p>I’m happy to have been completely oblivious to Honey’s existence and to have always just searched coupon codes manually on the web. Like an animal.</p>
@@ -1308,7 +1341,7 @@ while (outputNum &gt; 1)
 	  <div class="h-entry">
 		
 
-		<a href="https://route12b.net/2025/01/02/todays-unnecessary-program-for-var.html" class="u-url"><time class="dt-published" datetime="2025-01-02 12:29:18 -0500">Jan 2, 2025</time></a>
+		<a href="https://route12b.net/2025/01/02/todays-unnecessary-program-for-var.html" class="u-url"><time class="dt-published" datetime="2025-01-02 13:29:18 -0400">Jan 2, 2025</time></a>
 
 		<div class="e-content">
 			 <p>Today&rsquo;s unnecessary program:</p>
@@ -1327,7 +1360,7 @@ while (outputNum &gt; 1)
 	  <div class="h-entry">
 		
 
-		<a href="https://route12b.net/2025/01/02/wishing-happy-new-year-after.html" class="u-url"><time class="dt-published" datetime="2025-01-02 10:38:23 -0500">Jan 2, 2025</time></a>
+		<a href="https://route12b.net/2025/01/02/wishing-happy-new-year-after.html" class="u-url"><time class="dt-published" datetime="2025-01-02 11:38:23 -0400">Jan 2, 2025</time></a>
 
 		<div class="e-content">
 			 <p>Wishing happy new year after someone died in an explosion is crazy.</p>
@@ -1339,7 +1372,7 @@ while (outputNum &gt; 1)
 	  <div class="h-entry">
 		
 
-		<a href="https://route12b.net/2024/12/31/happy-new-year-yall.html" class="u-url"><time class="dt-published" datetime="2024-12-31 15:39:05 -0500">Dec 31, 2024</time></a>
+		<a href="https://route12b.net/2024/12/31/happy-new-year-yall.html" class="u-url"><time class="dt-published" datetime="2024-12-31 16:39:05 -0400">Dec 31, 2024</time></a>
 
 		<div class="e-content">
 			 <p>Happy New Year, y&rsquo;all. 🎉</p>
@@ -1350,7 +1383,7 @@ while (outputNum &gt; 1)
 	  <div class="h-entry">
 		
 
-		<a href="https://route12b.net/2024/12/28/knowing-my-anxiety-type-just.html" class="u-url"><time class="dt-published" datetime="2024-12-28 11:57:14 -0500">Dec 28, 2024</time></a>
+		<a href="https://route12b.net/2024/12/28/knowing-my-anxiety-type-just.html" class="u-url"><time class="dt-published" datetime="2024-12-28 12:57:14 -0400">Dec 28, 2024</time></a>
 
 		<div class="e-content">
 			 <p>Knowing my anxiety type just gives me more anxiety. No thanks.</p>
@@ -1361,7 +1394,7 @@ while (outputNum &gt; 1)
 	  <div class="h-entry">
 		
 
-		<a href="https://route12b.net/2024/12/23/finally-got-the-upgrades-i.html" class="u-url"><time class="dt-published" datetime="2024-12-23 16:09:07 -0500">Dec 23, 2024</time></a>
+		<a href="https://route12b.net/2024/12/23/finally-got-the-upgrades-i.html" class="u-url"><time class="dt-published" datetime="2024-12-23 17:09:07 -0400">Dec 23, 2024</time></a>
 
 		<div class="e-content">
 			 <p>Finally got the upgrades I wanted on my 2012 4Runner:</p>
@@ -1378,7 +1411,7 @@ while (outputNum &gt; 1)
 	  <div class="h-entry">
 		
 
-		<a href="https://route12b.net/2024/12/20/ha-thanks-for.html" class="u-url"><time class="dt-published" datetime="2024-12-20 17:42:29 -0500">Dec 20, 2024</time></a>
+		<a href="https://route12b.net/2024/12/20/ha-thanks-for.html" class="u-url"><time class="dt-published" datetime="2024-12-20 18:42:29 -0400">Dec 20, 2024</time></a>
 
 		<div class="e-content">
 			 <p>Ha! Thanks for the mention, <a href="https://www.threads.net/@attorneyryan">attorneyryan</a>!</p>
@@ -1390,7 +1423,7 @@ while (outputNum &gt; 1)
 	  <div class="h-entry">
 		
 
-		<a href="https://route12b.net/2024/12/19/im-not-so.html" class="u-url"><time class="dt-published" datetime="2024-12-19 15:11:01 -0500">Dec 19, 2024</time></a>
+		<a href="https://route12b.net/2024/12/19/im-not-so.html" class="u-url"><time class="dt-published" datetime="2024-12-19 16:11:01 -0400">Dec 19, 2024</time></a>
 
 		<div class="e-content">
 			 <p>I&rsquo;m not so much contrapositive as I am pronegative.</p>
@@ -1401,7 +1434,7 @@ while (outputNum &gt; 1)
 	  <div class="h-entry">
 		
 
-		<a href="https://route12b.net/2024/12/19/one-day-when.html" class="u-url"><time class="dt-published" datetime="2024-12-19 09:34:28 -0500">Dec 19, 2024</time></a>
+		<a href="https://route12b.net/2024/12/19/one-day-when.html" class="u-url"><time class="dt-published" datetime="2024-12-19 10:34:28 -0400">Dec 19, 2024</time></a>
 
 		<div class="e-content">
 			 <p>One day when I actually have the time and resources (likely never, but one can still dream), I&rsquo;m going to have a podcast where the following will be guaranteed:</p>
@@ -1417,7 +1450,7 @@ while (outputNum &gt; 1)
 	  <div class="h-entry">
 		
 
-		<a href="https://route12b.net/2024/12/19/i-dont-mean.html" class="u-url"><time class="dt-published" datetime="2024-12-19 08:47:59 -0500">Dec 19, 2024</time></a>
+		<a href="https://route12b.net/2024/12/19/i-dont-mean.html" class="u-url"><time class="dt-published" datetime="2024-12-19 09:47:59 -0400">Dec 19, 2024</time></a>
 
 		<div class="e-content">
 			 <p>I don&rsquo;t mean to minimize what earlier generations of Americans had to go through what with world wars and such. But only people my age know what it&rsquo;s like caring for both little kids AND aging parents.</p>
@@ -1428,7 +1461,7 @@ while (outputNum &gt; 1)
 	  <div class="h-entry">
 		
 
-		<a href="https://route12b.net/2024/12/13/the-us-department.html" class="u-url"><time class="dt-published" datetime="2024-12-13 11:34:15 -0500">Dec 13, 2024</time></a>
+		<a href="https://route12b.net/2024/12/13/the-us-department.html" class="u-url"><time class="dt-published" datetime="2024-12-13 12:34:15 -0400">Dec 13, 2024</time></a>
 
 		<div class="e-content">
 			 <p>The US Department of Defense releases it&rsquo;s latest <a href="https://www.defense.gov/News/News-Stories/Article/Article/4000004/test/">statement</a> on the drones flying over New Jersey.
@@ -1440,7 +1473,7 @@ while (outputNum &gt; 1)
 	  <div class="h-entry">
 		
 
-		<a href="https://route12b.net/2024/12/13/all-of-the.html" class="u-url"><time class="dt-published" datetime="2024-12-13 06:59:10 -0500">Dec 13, 2024</time></a>
+		<a href="https://route12b.net/2024/12/13/all-of-the.html" class="u-url"><time class="dt-published" datetime="2024-12-13 07:59:10 -0400">Dec 13, 2024</time></a>
 
 		<div class="e-content">
 			 <p>All of the content I post is 100% AI generated: “Alex Intelligence”.</p>
@@ -1451,7 +1484,7 @@ while (outputNum &gt; 1)
 	  <div class="h-entry">
 		
 
-		<a href="https://route12b.net/2024/12/12/is-it-me.html" class="u-url"><time class="dt-published" datetime="2024-12-12 16:30:05 -0500">Dec 12, 2024</time></a>
+		<a href="https://route12b.net/2024/12/12/is-it-me.html" class="u-url"><time class="dt-published" datetime="2024-12-12 17:30:05 -0400">Dec 12, 2024</time></a>
 
 		<div class="e-content">
 			 <p>Is it me, or MacOS Pages doesn&rsquo;t truly run in dark mode?</p>
@@ -1462,7 +1495,7 @@ while (outputNum &gt; 1)
 	  <div class="h-entry">
 		
 
-		<a href="https://route12b.net/2024/12/12/its-the-little.html" class="u-url"><time class="dt-published" datetime="2024-12-12 08:28:56 -0500">Dec 12, 2024</time></a>
+		<a href="https://route12b.net/2024/12/12/its-the-little.html" class="u-url"><time class="dt-published" datetime="2024-12-12 09:28:56 -0400">Dec 12, 2024</time></a>
 
 		<div class="e-content">
 			 <p>It&rsquo;s the little things: that rare moment where the song playing on the car stereo ends just as you arrive at your destination. :chefkiss:</p>
@@ -1473,7 +1506,7 @@ while (outputNum &gt; 1)
 	  <div class="h-entry">
 		
 
-		<a href="https://route12b.net/2024/12/11/after-seeing-some.html" class="u-url"><time class="dt-published" datetime="2024-12-11 16:15:42 -0500">Dec 11, 2024</time></a>
+		<a href="https://route12b.net/2024/12/11/after-seeing-some.html" class="u-url"><time class="dt-published" datetime="2024-12-11 17:15:42 -0400">Dec 11, 2024</time></a>
 
 		<div class="e-content">
 			 <p>After seeing some of the first few reviews of iOS 18.2 and not owning a compatible device for Apple Intelligence, I&rsquo;m wondering if I should finally go out and get myself an upgraded iPhone (currently own a 12 pro).</p>
@@ -1484,7 +1517,7 @@ while (outputNum &gt; 1)
 	  <div class="h-entry">
 		
 
-		<a href="https://route12b.net/2024/12/11/its-mind-blowing.html" class="u-url"><time class="dt-published" datetime="2024-12-11 08:22:26 -0500">Dec 11, 2024</time></a>
+		<a href="https://route12b.net/2024/12/11/its-mind-blowing.html" class="u-url"><time class="dt-published" datetime="2024-12-11 09:22:26 -0400">Dec 11, 2024</time></a>
 
 		<div class="e-content">
 			 <p>It&rsquo;s mind blowing how a well thought out <a href="https://alexanderbellgram.com/2024/12/09/here-we-are.html">post</a> with slight turns of phrase about reaching a birthday milestone obtains meh-levels of engagement, but paraphrasing (not even quoting!) a throw away line from a Chevy Chase movie garners nearly influencer levels of engagement. Never change, Threads.
@@ -1496,7 +1529,7 @@ while (outputNum &gt; 1)
 	  <div class="h-entry">
 		
 
-		<a href="https://route12b.net/2024/12/10/with-googles-quantum.html" class="u-url"><time class="dt-published" datetime="2024-12-10 09:10:12 -0500">Dec 10, 2024</time></a>
+		<a href="https://route12b.net/2024/12/10/with-googles-quantum.html" class="u-url"><time class="dt-published" datetime="2024-12-10 10:10:12 -0400">Dec 10, 2024</time></a>
 
 		<div class="e-content">
 			 <p>With Google&rsquo;s quantum computing breakthrough, how much longer before ALL of my passwords are rendered worthless? Trying to plan ahead.</p>
@@ -1507,7 +1540,7 @@ while (outputNum &gt; 1)
 	  <div class="h-entry">
 		
 
-		<a href="https://route12b.net/2024/12/09/here-we-are.html" class="u-url"><time class="dt-published" datetime="2024-12-09 06:10:35 -0500">Dec 9, 2024</time></a>
+		<a href="https://route12b.net/2024/12/09/here-we-are.html" class="u-url"><time class="dt-published" datetime="2024-12-09 07:10:35 -0400">Dec 9, 2024</time></a>
 
 		<div class="e-content">
 			 <p>🎂 🎂 🎂 Here we are: the big 5-oh. I asked ChatGPT to create a light but heartfelt post for me, but all I got out of that exercise was generic and saccharine outputs about how “50 is the new 30” (news to me), and how I’m looking forward to new adventures… blah blah blah. Plus, way too many birthday cake emojis.</p>
@@ -1543,7 +1576,7 @@ while (outputNum &gt; 1)
 	  <div class="h-entry">
 		
 
-		<a href="https://route12b.net/2024/12/06/damn.html" class="u-url"><time class="dt-published" datetime="2024-12-06 18:49:19 -0500">Dec 6, 2024</time></a>
+		<a href="https://route12b.net/2024/12/06/damn.html" class="u-url"><time class="dt-published" datetime="2024-12-06 19:49:19 -0400">Dec 6, 2024</time></a>
 
 		<div class="e-content">
 			 <p>Damn.</p>
@@ -1555,7 +1588,7 @@ while (outputNum &gt; 1)
 	  <div class="h-entry">
 		
 
-		<a href="https://route12b.net/2024/12/06/anthropic-countering-openai.html" class="u-url"><time class="dt-published" datetime="2024-12-06 07:01:45 -0500">Dec 6, 2024</time></a>
+		<a href="https://route12b.net/2024/12/06/anthropic-countering-openai.html" class="u-url"><time class="dt-published" datetime="2024-12-06 08:01:45 -0400">Dec 6, 2024</time></a>
 
 		<div class="e-content">
 			 <p>Anthropic countering OpenAI with unlimited access to all of their models for a mere $2000/month.</p>
@@ -1566,7 +1599,7 @@ while (outputNum &gt; 1)
 	  <div class="h-entry">
 		
 
-		<a href="https://route12b.net/2024/12/05/bridgy-has-anyone.html" class="u-url"><time class="dt-published" datetime="2024-12-05 21:02:20 -0500">Dec 5, 2024</time></a>
+		<a href="https://route12b.net/2024/12/05/bridgy-has-anyone.html" class="u-url"><time class="dt-published" datetime="2024-12-05 22:02:20 -0400">Dec 5, 2024</time></a>
 
 		<div class="e-content">
 			 <p>Bridgy. Has anyone used it? Let me know.</p>
@@ -1577,7 +1610,7 @@ while (outputNum &gt; 1)
 	  <div class="h-entry">
 		
 
-		<a href="https://route12b.net/2024/12/04/i-think-ive.html" class="u-url"><time class="dt-published" datetime="2024-12-04 18:05:55 -0500">Dec 4, 2024</time></a>
+		<a href="https://route12b.net/2024/12/04/i-think-ive.html" class="u-url"><time class="dt-published" datetime="2024-12-04 19:05:55 -0400">Dec 4, 2024</time></a>
 
 		<div class="e-content">
 			 <p>I think I’ve mentioned this before but it bears repeating: just about everyone dances the Electric Slide incorrectly.</p>
@@ -1588,7 +1621,7 @@ while (outputNum &gt; 1)
 	  <div class="h-entry">
 		
 
-		<a href="https://route12b.net/2024/12/04/ever-notice-how.html" class="u-url"><time class="dt-published" datetime="2024-12-04 15:27:50 -0500">Dec 4, 2024</time></a>
+		<a href="https://route12b.net/2024/12/04/ever-notice-how.html" class="u-url"><time class="dt-published" datetime="2024-12-04 16:27:50 -0400">Dec 4, 2024</time></a>
 
 		<div class="e-content">
 			 <p>Ever notice how Instagram will not allow your phone to go to sleep? Try it. Go the the main feed and then set your phone down. It won&rsquo;t go to sleep. It will just keep playing whatever reel is on your screen on repeat forever until your phone battery is drained.</p>
@@ -1599,7 +1632,7 @@ while (outputNum &gt; 1)
 	  <div class="h-entry">
 		
 
-		<a href="https://route12b.net/2024/12/04/ever-hit-ctrlr.html" class="u-url"><time class="dt-published" datetime="2024-12-04 09:46:51 -0500">Dec 4, 2024</time></a>
+		<a href="https://route12b.net/2024/12/04/ever-hit-ctrlr.html" class="u-url"><time class="dt-published" datetime="2024-12-04 10:46:51 -0400">Dec 4, 2024</time></a>
 
 		<div class="e-content">
 			 <p>Ever hit ctrl+R or cmd+R on the wrong application and instead of your browser refreshing it&rsquo;s some random app in the background? Focus is a struggle.</p>
@@ -1610,7 +1643,7 @@ while (outputNum &gt; 1)
 	  <div class="h-entry">
 		
 
-		<a href="https://route12b.net/2024/12/04/however-having-stopped.html" class="u-url"><time class="dt-published" datetime="2024-12-04 09:09:09 -0500">Dec 4, 2024</time></a>
+		<a href="https://route12b.net/2024/12/04/however-having-stopped.html" class="u-url"><time class="dt-published" datetime="2024-12-04 10:09:09 -0400">Dec 4, 2024</time></a>
 
 		<div class="e-content">
 			 <p>(2/2) However, having stopped using Spotify, I can&rsquo;t partake in Spotify wrapped this year. Now, is my life any worse off because of this? Of course not. Am I disappointed? Ehhhhhhh, yeah a little. 😆</p>
@@ -1621,7 +1654,7 @@ while (outputNum &gt; 1)
 	  <div class="h-entry">
 		
 
-		<a href="https://route12b.net/2024/12/04/so-i-stopped.html" class="u-url"><time class="dt-published" datetime="2024-12-04 09:07:43 -0500">Dec 4, 2024</time></a>
+		<a href="https://route12b.net/2024/12/04/so-i-stopped.html" class="u-url"><time class="dt-published" datetime="2024-12-04 10:07:43 -0400">Dec 4, 2024</time></a>
 
 		<div class="e-content">
 			 <p>(1/2) So I stopped using Spotify as my main source of streaming music about half-way through the year and switched over to Apple Music. The experience has been relatively smooth and painless. I&rsquo;m not so sure I hear the improvement in audio quality, but I think so? The placebo effect can be strong.</p>
@@ -1632,7 +1665,7 @@ while (outputNum &gt; 1)
 	  <div class="h-entry">
 		
 
-		<a href="https://route12b.net/2024/12/03/ok-im-going.html" class="u-url"><time class="dt-published" datetime="2024-12-03 09:18:04 -0500">Dec 3, 2024</time></a>
+		<a href="https://route12b.net/2024/12/03/ok-im-going.html" class="u-url"><time class="dt-published" datetime="2024-12-03 10:18:04 -0400">Dec 3, 2024</time></a>
 
 		<div class="e-content">
 			 <p>Ok I&rsquo;m going to say something super controversial, but I&rsquo;d like to hear your thoughts. I actually think the new iOS Photos app is an improvement. I find that it&rsquo;s much more intuitive and I&rsquo;ve had no trouble navigating it or finding recent photos.</p>
@@ -1644,7 +1677,7 @@ while (outputNum &gt; 1)
 	  <div class="h-entry">
 		
 
-		<a href="https://route12b.net/2024/12/02/spectrum-internet-service.html" class="u-url"><time class="dt-published" datetime="2024-12-02 08:34:59 -0500">Dec 2, 2024</time></a>
+		<a href="https://route12b.net/2024/12/02/spectrum-internet-service.html" class="u-url"><time class="dt-published" datetime="2024-12-02 09:34:59 -0400">Dec 2, 2024</time></a>
 
 		<div class="e-content">
 			 <p>Spectrum internet service is down AGAIN in central Florida. 🙄</p>
@@ -1655,7 +1688,7 @@ while (outputNum &gt; 1)
 	  <div class="h-entry">
 		
 
-		<a href="https://route12b.net/2024/12/01/does-anyone-use.html" class="u-url"><time class="dt-published" datetime="2024-12-01 16:38:41 -0500">Dec 1, 2024</time></a>
+		<a href="https://route12b.net/2024/12/01/does-anyone-use.html" class="u-url"><time class="dt-published" datetime="2024-12-01 17:38:41 -0400">Dec 1, 2024</time></a>
 
 		<div class="e-content">
 			 <p>Does anyone use Tumblr (besides <a href="https://micro.blog/crumbler@threads.net">@crumbler@threads.net</a>) ? How about Medium?</p>
@@ -1666,7 +1699,7 @@ while (outputNum &gt; 1)
 	  <div class="h-entry">
 		
 
-		<a href="https://route12b.net/2024/12/01/my-friends-when.html" class="u-url"><time class="dt-published" datetime="2024-12-01 16:19:20 -0500">Dec 1, 2024</time></a>
+		<a href="https://route12b.net/2024/12/01/my-friends-when.html" class="u-url"><time class="dt-published" datetime="2024-12-01 17:19:20 -0400">Dec 1, 2024</time></a>
 
 		<div class="e-content">
 			 <p>My friends, when pasting a link to an Apple News article, please take a moment and get the link to the original publication&rsquo;s article. Clicking a link and seeing the Apple News interface pop up is&hellip;  not great.</p>
@@ -1677,7 +1710,7 @@ while (outputNum &gt; 1)
 	  <div class="h-entry">
 		
 
-		<a href="https://route12b.net/2024/11/27/test-post-please.html" class="u-url"><time class="dt-published" datetime="2024-11-27 16:32:14 -0500">Nov 27, 2024</time></a>
+		<a href="https://route12b.net/2024/11/27/test-post-please.html" class="u-url"><time class="dt-published" datetime="2024-11-27 17:32:14 -0400">Nov 27, 2024</time></a>
 
 		<div class="e-content">
 			 <p>Test post. Please ignore.</p>
@@ -1688,7 +1721,7 @@ while (outputNum &gt; 1)
 	  <div class="h-entry">
 		
 
-		<a href="https://route12b.net/2024/11/27/humangenerated-content-right.html" class="u-url"><time class="dt-published" datetime="2024-11-27 16:22:22 -0500">Nov 27, 2024</time></a>
+		<a href="https://route12b.net/2024/11/27/humangenerated-content-right.html" class="u-url"><time class="dt-published" datetime="2024-11-27 17:22:22 -0400">Nov 27, 2024</time></a>
 
 		<div class="e-content">
 			 <p>100% human-generated content right here.</p>
@@ -1699,7 +1732,7 @@ while (outputNum &gt; 1)
 	  <div class="h-entry">
 		
 
-		<a href="https://route12b.net/2024/11/24/rewatched-gladiator-last.html" class="u-url"><time class="dt-published" datetime="2024-11-24 08:07:19 -0500">Nov 24, 2024</time></a>
+		<a href="https://route12b.net/2024/11/24/rewatched-gladiator-last.html" class="u-url"><time class="dt-published" datetime="2024-11-24 09:07:19 -0400">Nov 24, 2024</time></a>
 
 		<div class="e-content">
 			 <p>Rewatched Gladiator last night. I&rsquo;ve seen it a million times before but it&rsquo;s been awhile. Joaquin Phoenix&rsquo;s performance is underrated.</p>
@@ -1710,7 +1743,7 @@ while (outputNum &gt; 1)
 	  <div class="h-entry">
 		
 
-		<a href="https://route12b.net/2024/11/23/crossposting-is-funfediversing.html" class="u-url"><time class="dt-published" datetime="2024-11-23 16:14:56 -0500">Nov 23, 2024</time></a>
+		<a href="https://route12b.net/2024/11/23/crossposting-is-funfediversing.html" class="u-url"><time class="dt-published" datetime="2024-11-23 17:14:56 -0400">Nov 23, 2024</time></a>
 
 		<div class="e-content">
 			 <p>Cross-posting is fun</p>
@@ -1723,7 +1756,7 @@ while (outputNum &gt; 1)
 	  <div class="h-entry">
 		
 
-		<a href="https://route12b.net/2024/06/17/in-the-godfather.html" class="u-url"><time class="dt-published" datetime="2024-06-17 19:55:49 -0500">Jun 17, 2024</time></a>
+		<a href="https://route12b.net/2024/06/17/in-the-godfather.html" class="u-url"><time class="dt-published" datetime="2024-06-17 20:55:49 -0400">Jun 17, 2024</time></a>
 
 		<div class="e-content">
 			 <p>In The Godfather, Tom Hagan explains that Sollozzo is good with the knife. And yet, we never see Sollozzo use a knife. Ever. We never hear him bragging about how good he is with it. We never hear anyone else mention it either. Why the callout with the knife?</p>
@@ -1734,7 +1767,7 @@ while (outputNum &gt; 1)
 	  <div class="h-entry">
 		
 
-		<a href="https://route12b.net/2024/04/05/dear-floridians-todays.html" class="u-url"><time class="dt-published" datetime="2024-04-05 16:48:52 -0500">Apr 5, 2024</time></a>
+		<a href="https://route12b.net/2024/04/05/dear-floridians-todays.html" class="u-url"><time class="dt-published" datetime="2024-04-05 17:48:52 -0400">Apr 5, 2024</time></a>
 
 		<div class="e-content">
 			 <p>Dear Floridians: today’s NYC quake was basically a tropical storm in terms of severity. You’re welcome.</p>
@@ -1745,7 +1778,7 @@ while (outputNum &gt; 1)
 	  <div class="h-entry">
 		
 
-		<a href="https://route12b.net/2024/03/27/topics-discussed-at.html" class="u-url"><time class="dt-published" datetime="2024-03-27 20:22:48 -0500">Mar 27, 2024</time></a>
+		<a href="https://route12b.net/2024/03/27/topics-discussed-at.html" class="u-url"><time class="dt-published" datetime="2024-03-27 21:22:48 -0400">Mar 27, 2024</time></a>
 
 		<div class="e-content">
 			 <p>Topics discussed at dinner tonight with my wife and kids. 
@@ -1763,7 +1796,7 @@ while (outputNum &gt; 1)
 	  <div class="h-entry">
 		
 
-		<a href="https://route12b.net/2024/03/23/this-is-your.html" class="u-url"><time class="dt-published" datetime="2024-03-23 20:59:19 -0500">Mar 23, 2024</time></a>
+		<a href="https://route12b.net/2024/03/23/this-is-your.html" class="u-url"><time class="dt-published" datetime="2024-03-23 21:59:19 -0400">Mar 23, 2024</time></a>
 
 		<div class="e-content">
 			 <p>This is your daily reminder that you only feel gravity when you’re NOT falling.</p>
@@ -1774,7 +1807,7 @@ while (outputNum &gt; 1)
 	  <div class="h-entry">
 		
 
-		<a href="https://route12b.net/2024/03/23/found-a-bug.html" class="u-url"><time class="dt-published" datetime="2024-03-23 12:47:36 -0500">Mar 23, 2024</time></a>
+		<a href="https://route12b.net/2024/03/23/found-a-bug.html" class="u-url"><time class="dt-published" datetime="2024-03-23 13:47:36 -0400">Mar 23, 2024</time></a>
 
 		<div class="e-content">
 			 <p>Found a bug. Fixed.
@@ -1786,7 +1819,7 @@ And by that, I mean the wife found a roach in the cabinet, sprayed everything in
 	  <div class="h-entry">
 		
 
-		<a href="https://route12b.net/2024/03/20/optometrists-love-to.html" class="u-url"><time class="dt-published" datetime="2024-03-20 21:21:20 -0500">Mar 20, 2024</time></a>
+		<a href="https://route12b.net/2024/03/20/optometrists-love-to.html" class="u-url"><time class="dt-published" datetime="2024-03-20 22:21:20 -0400">Mar 20, 2024</time></a>
 
 		<div class="e-content">
 			 <p>Optometrists love to place that new pair of glasses on your face as if you’re royalty having the crown placed on your head at your coronation. You just know when you get home you’re going to unceremoniously throw those glasses right on the nightstand just like every other night.</p>
@@ -1797,7 +1830,7 @@ And by that, I mean the wife found a roach in the cabinet, sprayed everything in
 	  <div class="h-entry">
 		
 
-		<a href="https://route12b.net/2024/03/20/threads-notifications-currently.html" class="u-url"><time class="dt-published" datetime="2024-03-20 10:50:55 -0500">Mar 20, 2024</time></a>
+		<a href="https://route12b.net/2024/03/20/threads-notifications-currently.html" class="u-url"><time class="dt-published" datetime="2024-03-20 11:50:55 -0400">Mar 20, 2024</time></a>
 
 		<div class="e-content">
 			 <p>Meta Threads notifications currently broken.</p>
@@ -1808,7 +1841,7 @@ And by that, I mean the wife found a roach in the cabinet, sprayed everything in
 	  <div class="h-entry">
 		
 
-		<a href="https://route12b.net/2024/03/19/i-wouldnt-call.html" class="u-url"><time class="dt-published" datetime="2024-03-19 07:05:13 -0500">Mar 19, 2024</time></a>
+		<a href="https://route12b.net/2024/03/19/i-wouldnt-call.html" class="u-url"><time class="dt-published" datetime="2024-03-19 08:05:13 -0400">Mar 19, 2024</time></a>
 
 		<div class="e-content">
 			 <p>I wouldn&rsquo;t call it a &ldquo;living document&rdquo;. It&rsquo;s a glorified wiki page. Electronic communications aren&rsquo;t suddenly reproducing or taking in nutrients. Let&rsquo;s all calm down.</p>
@@ -1819,7 +1852,7 @@ And by that, I mean the wife found a roach in the cabinet, sprayed everything in
 	  <div class="h-entry">
 		
 
-		<a href="https://route12b.net/2024/03/16/what-we-didnt.html" class="u-url"><time class="dt-published" datetime="2024-03-16 08:18:59 -0500">Mar 16, 2024</time></a>
+		<a href="https://route12b.net/2024/03/16/what-we-didnt.html" class="u-url"><time class="dt-published" datetime="2024-03-16 09:18:59 -0400">Mar 16, 2024</time></a>
 
 		<div class="e-content">
 			 <p>What we didn’t know at the time was that every time Steve Ballmer said “developers” in that famous clip, a new version of .NET would spawn in the future. This is Steve’s revenge on all .NET developers: a gazillion different versions of the runtime.</p>
@@ -1830,7 +1863,7 @@ And by that, I mean the wife found a roach in the cabinet, sprayed everything in
 	  <div class="h-entry">
 		
 
-		<a href="https://route12b.net/2024/03/15/beware-the-ides.html" class="u-url"><time class="dt-published" datetime="2024-03-15 06:49:56 -0500">Mar 15, 2024</time></a>
+		<a href="https://route12b.net/2024/03/15/beware-the-ides.html" class="u-url"><time class="dt-published" datetime="2024-03-15 07:49:56 -0400">Mar 15, 2024</time></a>
 
 		<div class="e-content">
 			 <p>“Beware the ides of March” 🏛️ 🗡️</p>
@@ -1841,7 +1874,7 @@ And by that, I mean the wife found a roach in the cabinet, sprayed everything in
 	  <div class="h-entry">
 		
 
-		<a href="https://route12b.net/2024/03/13/im-being-serious.html" class="u-url"><time class="dt-published" datetime="2024-03-13 16:44:28 -0500">Mar 13, 2024</time></a>
+		<a href="https://route12b.net/2024/03/13/im-being-serious.html" class="u-url"><time class="dt-published" datetime="2024-03-13 17:44:28 -0400">Mar 13, 2024</time></a>
 
 		<div class="e-content">
 			 <p>I&rsquo;m being 100% serious: I&rsquo;ve started working from my bed (my laptop literally propped on my lap) and my productivity has gone way up. I don&rsquo;t get it, but I won&rsquo;t question it either.</p>
@@ -1852,7 +1885,7 @@ And by that, I mean the wife found a roach in the cabinet, sprayed everything in
 	  <div class="h-entry">
 		
 
-		<a href="https://route12b.net/2024/03/09/im-convinced-the.html" class="u-url"><time class="dt-published" datetime="2024-03-09 17:35:39 -0500">Mar 9, 2024</time></a>
+		<a href="https://route12b.net/2024/03/09/im-convinced-the.html" class="u-url"><time class="dt-published" datetime="2024-03-09 18:35:39 -0400">Mar 9, 2024</time></a>
 
 		<div class="e-content">
 			 <p>I’m convinced the highway billboard advertising industry is entirely supported by the personal injury attorney cartel.</p>
@@ -1863,7 +1896,7 @@ And by that, I mean the wife found a roach in the cabinet, sprayed everything in
 	  <div class="h-entry">
 		
 
-		<a href="https://route12b.net/2024/03/07/the-other-day.html" class="u-url"><time class="dt-published" datetime="2024-03-07 06:24:24 -0500">Mar 7, 2024</time></a>
+		<a href="https://route12b.net/2024/03/07/the-other-day.html" class="u-url"><time class="dt-published" datetime="2024-03-07 07:24:24 -0400">Mar 7, 2024</time></a>
 
 		<div class="e-content">
 			 <p>The other day I did something I never thought I would end up doing: I called Amazon support. Apparently, one of my kids inadvertently signed up for an Amazon Music subscription (yes, those apparently exist). I called the number after trying to resolve the issue online and getting nowhere. My expectations were pretty much nonexistent. But I gotta say, after explaining the situation, Amazon support was extremely helpful and resolved the issue. Not only that, but I was refunded as well.</p>
@@ -1874,7 +1907,7 @@ And by that, I mean the wife found a roach in the cabinet, sprayed everything in
 	  <div class="h-entry">
 		
 
-		<a href="https://route12b.net/2024/02/29/book-recommendation-and.html" class="u-url"><time class="dt-published" datetime="2024-02-29 07:54:11 -0500">Feb 29, 2024</time></a>
+		<a href="https://route12b.net/2024/02/29/book-recommendation-and.html" class="u-url"><time class="dt-published" datetime="2024-02-29 08:54:11 -0400">Feb 29, 2024</time></a>
 
 		<div class="e-content">
 			 <p>Book recommendation and leap day are a great combination! Here&rsquo;s one that I recently read. Camille Fournier lays out the path in a way engineers and other tech workers will find easy to understand (trust me, if I was able to understand it, anyone can). I will be re-reading this again very soon. 👍🏻</p>
@@ -1886,7 +1919,7 @@ And by that, I mean the wife found a roach in the cabinet, sprayed everything in
 	  <div class="h-entry">
 		
 
-		<a href="https://route12b.net/2024/02/29/happy-calendar-drift.html" class="u-url"><time class="dt-published" datetime="2024-02-29 03:02:41 -0500">Feb 29, 2024</time></a>
+		<a href="https://route12b.net/2024/02/29/happy-calendar-drift.html" class="u-url"><time class="dt-published" datetime="2024-02-29 04:02:41 -0400">Feb 29, 2024</time></a>
 
 		<div class="e-content">
 			 <p>Happy calendar drift prevention day for those who celebrate.</p>
@@ -1897,7 +1930,7 @@ And by that, I mean the wife found a roach in the cabinet, sprayed everything in
 	  <div class="h-entry">
 		
 
-		<a href="https://route12b.net/2024/02/27/todays-workout-reps.html" class="u-url"><time class="dt-published" datetime="2024-02-27 13:26:00 -0500">Feb 27, 2024</time></a>
+		<a href="https://route12b.net/2024/02/27/todays-workout-reps.html" class="u-url"><time class="dt-published" datetime="2024-02-27 14:26:00 -0400">Feb 27, 2024</time></a>
 
 		<div class="e-content">
 			 <p>Today&rsquo;s workout:</p>
@@ -1912,7 +1945,7 @@ Jumping pull-ups<br>
 	  <div class="h-entry">
 		
 
-		<a href="https://route12b.net/2024/02/23/dear-news-i.html" class="u-url"><time class="dt-published" datetime="2024-02-23 20:04:05 -0500">Feb 23, 2024</time></a>
+		<a href="https://route12b.net/2024/02/23/dear-news-i.html" class="u-url"><time class="dt-published" datetime="2024-02-23 21:04:05 -0400">Feb 23, 2024</time></a>
 
 		<div class="e-content">
 			 <p>Dear News+: I am already paying for your service. Why am I seeing ads embedded in every dang article? And not just one. There’s at least two or three ads per article.</p>
@@ -1923,7 +1956,7 @@ Jumping pull-ups<br>
 	  <div class="h-entry">
 		
 
-		<a href="https://route12b.net/2024/02/22/todays-workout-for.html" class="u-url"><time class="dt-published" datetime="2024-02-22 16:27:32 -0500">Feb 22, 2024</time></a>
+		<a href="https://route12b.net/2024/02/22/todays-workout-for.html" class="u-url"><time class="dt-published" datetime="2024-02-22 17:27:32 -0400">Feb 22, 2024</time></a>
 
 		<div class="e-content">
 			 <p>Today&rsquo;s workout:</p>
@@ -1942,7 +1975,7 @@ Jumping pull-ups<br>
 	  <div class="h-entry">
 		
 
-		<a href="https://route12b.net/2024/02/22/a-socalled-financial.html" class="u-url"><time class="dt-published" datetime="2024-02-22 07:57:41 -0500">Feb 22, 2024</time></a>
+		<a href="https://route12b.net/2024/02/22/a-socalled-financial.html" class="u-url"><time class="dt-published" datetime="2024-02-22 08:57:41 -0400">Feb 22, 2024</time></a>
 
 		<div class="e-content">
 			 <p>A so-called financial columnist was recently scammed out of $50k in one of those &ldquo;shoe-box&rdquo; scams. There are entire YouTube channels dedicated to exposing this problem. The scam involves elaborate coordination across countries and continents. The complexity probably rivals that of some illegal drug organizations.</p>
@@ -1968,7 +2001,7 @@ Jumping pull-ups<br>
 	  <div class="h-entry">
 		
 
-		<a href="https://route12b.net/2024/02/21/despite-its-name.html" class="u-url"><time class="dt-published" datetime="2024-02-21 21:26:08 -0500">Feb 21, 2024</time></a>
+		<a href="https://route12b.net/2024/02/21/despite-its-name.html" class="u-url"><time class="dt-published" datetime="2024-02-21 22:26:08 -0400">Feb 21, 2024</time></a>
 
 		<div class="e-content">
 			 <p>Despite its name, the type system in Typescript is not exactly like the type system in C#. I understand this on a rational level. But not on a gut level. Sometimes hours are wasted because of this.</p>
@@ -1981,7 +2014,7 @@ Jumping pull-ups<br>
 			<h1><a href="https://route12b.net/2024/02/20/apple-music-vs.html">Apple Music vs Spotify</a></h1>
 		
 
-		<a href="https://route12b.net/2024/02/20/apple-music-vs.html" class="u-url"><time class="dt-published" datetime="2024-02-20 21:21:56 -0500">Feb 20, 2024</time></a>
+		<a href="https://route12b.net/2024/02/20/apple-music-vs.html" class="u-url"><time class="dt-published" datetime="2024-02-20 22:21:56 -0400">Feb 20, 2024</time></a>
 
 		<div class="e-content">
 			 <p>The selection of music on Apple Music compared to Spotify continues to disappoint. I already pay for the service via iCloud+. I have heard others describe the sound quality as being superior. I WANT to like it and use it. But until I can import my HIGHLY CURATED playlists from Spotify to Apple Music without a significant fraction of tracks being dropped on the floor, I will continue to use (and pay extra for) Spotify.</p>
@@ -1992,7 +2025,7 @@ Jumping pull-ups<br>
 	  <div class="h-entry">
 		
 
-		<a href="https://route12b.net/2024/02/20/wanted-to-reshare.html" class="u-url"><time class="dt-published" datetime="2024-02-20 18:56:37 -0500">Feb 20, 2024</time></a>
+		<a href="https://route12b.net/2024/02/20/wanted-to-reshare.html" class="u-url"><time class="dt-published" datetime="2024-02-20 19:56:37 -0400">Feb 20, 2024</time></a>
 
 		<div class="e-content">
 			 <p>Wanted to reshare this from <a href="https://micro.blog/manton">@manton</a> . This is so timely as I am going through the arduous process of integrating all my various socials. Challenging for sure. But interesting at the same time.</p>
@@ -2004,7 +2037,7 @@ Jumping pull-ups<br>
 	  <div class="h-entry">
 		
 
-		<a href="https://route12b.net/2024/02/20/todays-workout-for.html" class="u-url"><time class="dt-published" datetime="2024-02-20 13:07:13 -0500">Feb 20, 2024</time></a>
+		<a href="https://route12b.net/2024/02/20/todays-workout-for.html" class="u-url"><time class="dt-published" datetime="2024-02-20 14:07:13 -0400">Feb 20, 2024</time></a>
 
 		<div class="e-content">
 			 <p>Today&rsquo;s workout:</p>
@@ -2028,7 +2061,7 @@ Jumping pull-ups<br>
 	  <div class="h-entry">
 		
 
-		<a href="https://route12b.net/2024/02/20/todays-map-the.html" class="u-url"><time class="dt-published" datetime="2024-02-20 10:38:15 -0500">Feb 20, 2024</time></a>
+		<a href="https://route12b.net/2024/02/20/todays-map-the.html" class="u-url"><time class="dt-published" datetime="2024-02-20 11:38:15 -0400">Feb 20, 2024</time></a>
 
 		<div class="e-content">
 			 <p>Today&rsquo;s map. The population density of China. RealLifeLore did a video on this as well: <a href="https://youtu.be/kVaBlat06Sw">youtu.be/kVaBlat06&hellip;</a></p>
@@ -2040,18 +2073,7 @@ Jumping pull-ups<br>
 	  <div class="h-entry">
 		
 
-		<a href="https://route12b.net/2024/02/20/as-one-of.html" class="u-url"><time class="dt-published" datetime="2024-02-20 07:32:35 -0500">Feb 20, 2024</time></a>
-
-		<div class="e-content">
-			 <p>As one of the greatest characters in TV history, Chief Jim Hopper, so eloquently stated in season 1, episode 1 of Stranger Things: &ldquo;Mornings are for coffee and contemplation&rdquo;.</p>
-
-		</div>
-	  </div>
-	
-	  <div class="h-entry">
-		
-
-		<a href="https://route12b.net/2024/02/19/an-example-of.html" class="u-url"><time class="dt-published" datetime="2024-02-19 18:12:44 -0500">Feb 19, 2024</time></a>
+		<a href="https://route12b.net/2024/02/19/an-example-of.html" class="u-url"><time class="dt-published" datetime="2024-02-19 19:12:44 -0400">Feb 19, 2024</time></a>
 
 		<div class="e-content">
 			 <p>An example of a short blog post</p>
@@ -2062,7 +2084,7 @@ Jumping pull-ups<br>
 	  <div class="h-entry">
 		
 
-		<a href="https://route12b.net/2024/02/19/happy-presidents-day.html" class="u-url"><time class="dt-published" datetime="2024-02-19 14:42:30 -0500">Feb 19, 2024</time></a>
+		<a href="https://route12b.net/2024/02/19/happy-presidents-day.html" class="u-url"><time class="dt-published" datetime="2024-02-19 15:42:30 -0400">Feb 19, 2024</time></a>
 
 		<div class="e-content">
 			 <p>Happy Presidents' Day! This post is a test of X-posting from Micro.blog. If you&rsquo;re reading this, the test worked! 🎉</p>
@@ -2073,7 +2095,7 @@ Jumping pull-ups<br>
 	  <div class="h-entry">
 		
 
-		<a href="https://route12b.net/2023/11/05/first-post-hello.html" class="u-url"><time class="dt-published" datetime="2023-11-05 15:11:58 -0500">Nov 5, 2023</time></a>
+		<a href="https://route12b.net/2023/11/05/first-post-hello.html" class="u-url"><time class="dt-published" datetime="2023-11-05 16:11:58 -0400">Nov 5, 2023</time></a>
 
 		<div class="e-content">
 			 <p>First post. Hello, world!</p>
@@ -2086,7 +2108,7 @@ Jumping pull-ups<br>
 			<h1><a href="https://route12b.net/2023/11/05/alexanderbellgramcom.html">alexanderbellgram.com</a></h1>
 		
 
-		<a href="https://route12b.net/2023/11/05/alexanderbellgramcom.html" class="u-url"><time class="dt-published" datetime="2023-11-05 15:11:58 -0500">Nov 5, 2023</time></a>
+		<a href="https://route12b.net/2023/11/05/alexanderbellgramcom.html" class="u-url"><time class="dt-published" datetime="2023-11-05 16:11:58 -0400">Nov 5, 2023</time></a>
 
 		<div class="e-content">
 			 <!-- raw HTML omitted -->
